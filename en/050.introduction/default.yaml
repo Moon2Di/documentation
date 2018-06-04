@@ -1,6 +1,6 @@
-name:
+name: Introduction
 file:
-	050.the-EMC-Currency: {
+	050.the-emc-currency: {
 	    name: The EMC Currency,
 	    meta: {
 	        description: 1
