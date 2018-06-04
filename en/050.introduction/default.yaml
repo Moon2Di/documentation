@@ -5,19 +5,19 @@ file:
         meta: {
             description: 1
         }
-	}
+    }
     100.specifications: {
         name: Emercoin Specifications,
         meta: {
             description: 2
-	    }
-	}
+         }
+    }
     150.technology-tree: {
         name: Emercoin Tech Tree (Dec 2017),
         meta: {
             description: 3
-	    }
-	}
+        }
+    }
     200.security-principles: {
         name: Emercoin Security Principles,
         meta: {
