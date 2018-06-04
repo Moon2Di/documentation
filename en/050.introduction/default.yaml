@@ -1,32 +1,32 @@
 name: Introduction
 file:
-	050.the-emc-currency: {
-		name: The EMC Currency,
-		meta: {
-			description: 1
-		}
+    050.the-emc-currency: {
+        name: The EMC Currency,
+        meta: {
+            description: 1
+        }
 	}
-	100.specifications: {
-	    name: Emercoin Specifications,
-	    meta: {
-	        description: 2
+    100.specifications: {
+        name: Emercoin Specifications,
+        meta: {
+            description: 2
 	    }
 	}
-	150.technology-tree: {
-	    name: Emercoin Tech Tree (Dec 2017),
-	    meta: {
-	        description: 3
+    150.technology-tree: {
+        name: Emercoin Tech Tree (Dec 2017),
+        meta: {
+            description: 3
 	    }
 	}
-	200.security-principles: {
-	    name: Emercoin Security Principles,
-	    meta: {
-	        description: 4
+    200.security-principles: {
+        name: Emercoin Security Principles,
+        meta: {
+            description: 4
 	    }
 	}
-	250.roadmap-&-achievements: {
-	    name: Roadmap and Achievements,
-	    meta: {
-	        description: 5
+    250.roadmap-&-achievements: {
+        name: Roadmap and Achievements,
+        meta: {
+            description: 5
 	    }
 	}
