@@ -1,6 +1,6 @@
 name: Introduction
 files:
-   100.the-emc-currency: {
+   050.the-emc-currency: {
       name: The EMC Currency,
       meta: {
         title: The EMC Currency - Emercoin Community Documentation,
