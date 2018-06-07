@@ -1,27 +1,27 @@
-name: Running Emercoin
+name: EmerSSL
 files:
-   050.linux-quickstart: {
-      name: Linux Quickstart,
+   050.emerssl-introduction: {
+      name: EmerSSL Introduction,
       meta: {
-        title: Linux Quickstart - Emercoin Community Documentation,
+        title: EmerSSL Introduction - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
         keywords: ,
         author: Emercoin Community
       }
     }
-   100.command-line: {
-      name: Command Line,
+   100.emerssl-guide: {
+      name: EmerSSL Guide,
       meta: {
-        title: Command Line - Emercoin Community Documentation,
+        title: EmerSSL Guide - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
         keywords: ,
         author: Emercoin Community
       }
     }
-   150.emercoin-conf: {
-      name: emercoin.conf,
+   150.emerssl-infocard: {
+      name: EmerSSL InfoCard,
       meta: {
-        title: Configuration - Emercoin Community Documentation,
+        title: EmerSSL InfoCard - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
         keywords: ,
         author: Emercoin Community
