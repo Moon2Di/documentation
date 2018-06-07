@@ -1,0 +1,29 @@
+name: Mobile Wallets
+files:
+   050.emercoin-sw: {
+      name: Emercoin SW,
+      meta: {
+        title: Emercoin SW - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
+      }
+    }
+   100.emercoin-one: {
+      name: Emercoin One,
+      meta: {
+        title: Emercoin One - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
+      }
+    }
+   150.emercoin-basic: {
+      name: Emercoin Basic,
+      meta: {
+        title: Emercoin Basic - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
+      }
+    }

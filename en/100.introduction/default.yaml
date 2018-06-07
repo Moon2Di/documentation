@@ -16,7 +16,7 @@ files:
       }
     }
    150.technology-tree: {
-      name: Emercoin Tech Tree (Dec 2017),
+      name: Emercoin Tech Tree,
       meta: {
         description: lorem ipsum
       }

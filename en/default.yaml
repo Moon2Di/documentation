@@ -1,8 +1,35 @@
 files:
    050.about-emercoin: {
-      name: The EMC Currency,
+      name: About Emercoin,
       meta: {
-        title: The EMC Currency - Emercoin Community Documentation,
+        title: About Emercoin - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
+      }
+    }
+   250.emercoin-api: {
+      name: Emercoin API,
+      meta: {
+        title: Emercoin API - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
+      }
+    }
+   400.emercoin-press-kit: {
+      name: Emercoin Press Kit,
+      meta: {
+        title: Emercoin Press Kit - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
+      }
+    }
+   450.links-resources: {
+      name: Links & Resources,
+      meta: {
+        title: Links & Resources - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
         keywords: ,
         author: Emercoin Community
