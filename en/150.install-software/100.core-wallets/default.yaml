@@ -1,6 +1,6 @@
 name: Core Wallets
 files:
-   050.gui_wallet: {
+   050.gui-wallet: {
       name: GUI wallet,
       meta: {
         title: GUI wallet - Emercoin Community Documentation,
@@ -9,7 +9,7 @@ files:
         author: Emercoin Community
       }
     }
-   100.cli_daemon: {
+   100.cli-daemon: {
       name: CLI daemon,
       meta: {
         title: CLI daemon - Emercoin Community Documentation,
