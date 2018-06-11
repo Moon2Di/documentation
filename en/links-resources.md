@@ -17,9 +17,9 @@ Links to third-party websites, projects and services relating to Emercoin. Inclu
 
 ### Mobile Wallets
 
--   [Emercoin SW](/en/150.install-software/050.mobile-wallets/050.emercoin-sw.md) (iOS, Android, Windows, MacOS)
--   [Emercoin One](/en/150.install-software/050.mobile-wallets/100.emercoin-one.md) (iOS)
--   [Emercoin Basic](/en/150.install-software/050.mobile-wallets/150.emercoin-basic.md) (iOS)
+-   [Emercoin SW](/en/install-software/mobile-wallets/emercoin-sw.md) (iOS, Android, Windows, MacOS)
+-   [Emercoin One](/en/install-software/mobile-wallets/emercoin-one.md) (iOS)
+-   [Emercoin Basic](/en/install-software/mobile-wallets/emercoin-basic.md) (iOS)
 
 ### Online Wallets
 

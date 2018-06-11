@@ -1,4 +1,4 @@
-<div style="boxOverflow"><img style="float:left;" src="/images/ENUMER.png" alt="ENUMER image" width="356"></div>
+<div style="boxOverflow"><img src="/images/ENUMER.png" alt="ENUMER image" width="356"></div>
 <br>
 
 ENUMER is a system for supporting [ENUM telephone

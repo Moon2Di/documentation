@@ -20,7 +20,7 @@ attack on the Emercoin blockchain would be a self destructive move by
 the attacker since they would simultaneously be damaging the network and
 devaluing their own massive coin holdings.
 
-Now that Emercoin is [merge-mined](/en/350.block-generation/100.proof-of-work-mining.md) with
+Now that Emercoin is [merge-mined](/en/block-generation/proof-of-work-mining.md) with
 Bitcoin, it benefits from a significant portion of the mining power of
 the Bitcoin network.
 

@@ -1,4 +1,4 @@
-<div style="boxOverflow"><img style="float:left;" src="/images/EmerSSL-cryptography.jpg" alt="EmerSSL" width="256"></div>
+<div style="boxOverflow"><img src="/images/EmerSSL-cryptography.jpg" alt="EmerSSL" width="256"></div>
 <br>
 
 # EmerSSL Guide

@@ -1,4 +1,4 @@
-<div style="boxOverflow"><img style="float:left;" src="/images/EmerDNS_logo.png" alt="EmerDNS logo" width="256"></div>
+<div style="boxOverflow"><img src="/images/EmerDNS_logo.png" alt="EmerDNS logo" width="256"></div>
 
 # EmerDNS
 

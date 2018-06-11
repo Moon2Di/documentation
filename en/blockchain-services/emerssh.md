@@ -1,4 +1,4 @@
-<div style="boxOverflow"><img style="float:left;" src="/images/EmerSSH_logo.png" alt="EmerSSH logo" width="256"></div>
+<div style="boxOverflow"><img src="/images/EmerSSH_logo.png" alt="EmerSSH logo" width="256"></div>
 
 # EmerSSH
 

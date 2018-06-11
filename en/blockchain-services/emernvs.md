@@ -1,4 +1,4 @@
-<div style="boxOverflow"><img style="float:left;" src="/images/NVS_logo.png" alt="NVS logo" width="256"></div>
+<div style="boxOverflow"><img src="/images/NVS_logo.png" alt="NVS logo" width="256"></div>
 
 # The Emercoin NVS
 
