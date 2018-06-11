@@ -2,17 +2,17 @@
 
 # EmerDNS
 
-EmerDNS is a system for decentralized domain names supporting a full range of [DNS records](http://en.wikipedia.org/wiki/List_of_DNS_record_types). EmerDNS operates under the **"dns"** service abbreviation in the [Emercoin NVS](../Emercoin_NVS).
+EmerDNS is a system for decentralized domain names supporting a full range of <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/List_of_DNS_record_types">DNS records</a>. EmerDNS operates under the **"dns"** service abbreviation in the [Emercoin NVS](/en/blockchain-services/emernvs.md).
 
 Because of Emercoin's secure and distributed blockchain the domain name records are completely decentralized and uncensorable and cannot be altered, revoked or suspended by any authority. Only a record's owner can modify or transfer it to another owner, and a record's owner is determined by whoever controls the private key to the associated payment address.
 
-Only DNS record owners can manage their records: change values, lease times, or delete them or transfer ownership to another EMC address. These actions can be performed using the [Emercoin NVS](../Emercoin_NVS) in the Emercoin wallet GUI, or via the **name\_new** or **name\_update** commands in the [Emercoin API](../../Emercoin_API).
+Only DNS record owners can manage their records: change values, lease times, or delete them or transfer ownership to another EMC address. These actions can be performed using the [Emercoin NVS](/en/blockchain-services/emernvs.md) in the Emercoin wallet GUI, or via the **name\_new** or **name\_update** commands in the [Emercoin API](/en/emercoin-api.md).
 
-DNS records can easily be retrieved from any Emercoin wallet using the [Emercoin API](../../Emercoin_API) using JSONRPC or the command line, or by the standard [RFC1034](https://www.ietf.org/rfc/rfc1034.txt) DNS protocol that is built in to every Emercoin wallet.
+DNS records can easily be retrieved from any Emercoin wallet using the [Emercoin API](/en/emercoin-api.md) using JSONRPC or the command line, or by the standard <a target="_blank" rel="nofollow" href="https://www.ietf.org/rfc/rfc1034.txt">RFC1034</a> DNS protocol that is built in to every Emercoin wallet.
 
 Supported DNS zones
 -------------------
-Technically, EmerDNS can support any [DNS-zone](https://en.wikipedia.org/wiki/DNS_zone) or [TLD](https://en.wikipedia.org/wiki/TLD). However, for seamless integration into a standard DNS tree, and to prevent collisions with existing DNS-zones, we currently recommend creating EmerDNS records only in the zones: *\*.emc*, *\*.coin*, *\*.lib*, *\*.bazar*.
+Technically, EmerDNS can support any <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/DNS_zone">DNS-zone</a> or <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/TLD">TLD</a>. However, for seamless integration into a standard DNS tree, and to prevent collisions with existing DNS-zones, we currently recommend creating EmerDNS records only in the zones: *\*.emc*, *\*.coin*, *\*.lib*, *\*.bazar*.
 
 Current root zones supported by EmerDNS, and their intended purpose:
 
@@ -33,18 +33,17 @@ There are several ways that EmerDNS domains can be reached:
 
 Several 3rd-party browser plugins exist which allow you to easily visit EmerDNS domains:
 
--   [Peername.com browser
-    extension](https://peername.com/browser-extension) (firefox,
+-   <a target="_blank" rel="nofollow" href="https://peername.com/browser-extension">Peername.com browser extension</a> (firefox,
     chrome, opera)
--   [Blockchain-DNS.info](https://blockchain-dns.info/) browser
+-   <a target="_blank" rel="nofollow" href="https://blockchain-dns.info/">Blockchain-DNS.info</a> browser
     extension (firefox, chrome)
--   [friGate browser extension](https://fri-gate.org/) (firefox,
+-   <a target="_blank" rel="nofollow" href="https://fri-gate.org/">friGate browser extension</a> (firefox,
     chrome, opera)
 
-A more updated list of browser extensions that support EmerDNS may be found [here](../../Links_&_Resources#page_EmerDNS-Browser-Plugins).
+A more updated list of browser extensions that support EmerDNS may be found [here](/en/links-resources.md#emerdns-browser-plugins).
 
 ### OpenNIC
-Emercoin maintains a peering agreement with the DNS provider [OpenNIC](http://opennicproject.org) which means domains registered with EmerDNS are accessible by default to all users of OpenNIC DNS servers. Emercoin domain zones are thus accessible by visiting [opennicproject.org](http://opennicproject.org) and following their [guide](http://wiki.opennicproject.org/GettingStarted) for setting your DNS resolver to OpenNIC servers.
+Emercoin maintains a peering agreement with the DNS provider <a target="_blank" rel="nofollow" href="http://opennicproject.org">OpenNIC</a> which means domains registered with EmerDNS are accessible by default to all users of OpenNIC DNS servers. Emercoin domain zones are thus accessible by visiting <a target="_blank" rel="nofollow" href="http://opennicproject.org">opennicproject.org</a> and following their <a target="_blank" rel="nofollow" href="http://wiki.opennicproject.org/GettingStarted">guide</a> for setting your DNS resolver to OpenNIC servers.
 
 OpenNIC is a simple and convenient method to seamlessly access all websites registered in the Emercoin blockchain, as well as all other domain zones that OpenNIC supports.
 
@@ -52,19 +51,19 @@ OpenNIC is a simple and convenient method to seamlessly access all websites regi
 
 3rd-party proxy servers can provide access to EmerDNS zones:
 
--   [OpenNIC Proxy](http://proxy.opennicproject.org)
--   [Emerproxy.xyz](https://emerproxy.xyz)
+-   <a target="_blank" rel="nofollow" href="http://proxy.opennicproject.org">OpenNIC Proxy</a>
+-   <a target="_blank" rel="nofollow" href="https://emerproxy.xyz">Emerproxy.xyz</a>
 
 ### EmerDNS gateways
 
-**Emergate.net** - The emergate.net gateway is an example of [DNS tree integration](#Integration_into_a_regular_DNS_tree) maintained by the Emercoin development team and provides a public gateway to EmerDNS zones. All EmerDNS domains are reachable through this gateway, provided the server hosting the domain is configured properly to receive connections from the gateway url. For example, if you have registered **emer.coin** on the Emercoin blockchain, then it can be reached by visiting: <http://emer.coin.emergate.net>
+**Emergate.net** - The emergate.net gateway is an example of [DNS tree integration](#integration-into-a-regular-dns-tree) maintained by the Emercoin development team and provides a public gateway to EmerDNS zones. All EmerDNS domains are reachable through this gateway, provided the server hosting the domain is configured properly to receive connections from the gateway url. For example, if you have registered **emer.coin** on the Emercoin blockchain, then it can be reached by visiting: <a target="_blank" rel="nofollow" href="http://emer.coin.emergate.net">http://emer.coin.emergate.net</a>
 
 Creating and maintaining a DNS record
 -------------------------------------
 
 ### Record types
 
-Emercoin's built-in DNS server supports the following [DNS record types](http://en.wikipedia.org/wiki/List_of_DNS_record_types):
+Emercoin's built-in DNS server supports the following <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/List_of_DNS_record_types">DNS record types</a>:
 
   Record abbreviation   |Service description
   --------------------- |--------------------------------------------------
@@ -75,11 +74,11 @@ Emercoin's built-in DNS server supports the following [DNS record types](http://
   CNAME                 |Canonical name record
   MX                    |Mail exchange record
   TXT                   |Free form text message
-  SD                    |Subdomains ([see below](#Subdomains))
+  SD                    |Subdomains ([see below](#subdomains))
 
 *Note: SOA, WKS, and SRV records are not directly supported by Emercoin's built-in DNS server.*
 
-To insert a DNS record into the Emercoin blockchain, create (or update) a **name-&gt;value** pair under the **"dpo"** service abbreviation in the [Emercoin NVS](../Emercoin_NVS) as follows:
+To insert a DNS record into the Emercoin blockchain, create (or update) a **name-&gt;value** pair under the **"dpo"** service abbreviation in the [Emercoin NVS](/en/blockchain-services/emernvs.md) as follows:
 
 ```text
 "name" : "dns:<your_name_here>"
@@ -98,7 +97,7 @@ In this example the domain **example.coin** is specified by:
 -   two A-records (192.168.0.123 and 127.0.0.1);
 -   one AAAA-record (2607:f8b0:4004:806::1001);
 -   one NS-record (ns1.google.com);
--   a [TTL record](https://en.wikipedia.org/wiki/Time_to_live).
+-   a <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Time_to_live">TTL record</a>.
 
 The records are separated by the default separator vertical bar or pipe
 ("|"). If necessary, you can redefine the separator by prefixing the
@@ -125,7 +124,7 @@ and asterisk "\*" as value separators for multiple TXT-records:
 "value" : "~/TXT=~*This is text, Hello!*2nd text/MX=gmail.com:33,mx.microsoft.com:66/CNAME=emc.cc.st/A=192.168.0.100,127.0.0.1"
 ```
 
-In the last example we've demonstrated the usage of a [MX record](https://en.wikipedia.org/wiki/MX_record). The value of MX
+In the last example we've demonstrated the usage of a <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/MX_record">MX record</a>. The value of MX
 contains a mail exchanger reference and priority, separated by a colon ":". If priority is omitted, the default value is 1.
 
 Also, intentionally omitted in the last example is a TTL record. The default value for TTL is 24 hours.
@@ -139,17 +138,15 @@ start or end a name. Only lowercase letters are valid.
 
 #### Internationalized domain names
 
-[Internationalized domain
-names](https://en.wikipedia.org/wiki/Internationalized_domain_name)
+<a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Internationalized_domain_name">Internationalized domain names</a>
 (Arabic, Chinese, Cyrillic, etc) are technically possible using
-[punycode](https://en.wikipedia.org/wiki/Punycode).
+<a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Punycode">punycode</a>.
 
 For example, if we want the following internationalized domain name:
 
 	dns:президент.emc
 
-Then we must transcribe it using a [punycode
-converter](https://www.charset.org/punycode) and register the result:
+Then we must transcribe it using a <a target="_blank" rel="nofollow" href="https://www.charset.org/punycode">punycode converter</a> and register the result:
 
 	dns:xn--d1abbgf6aiiy.emc
 
@@ -181,7 +178,7 @@ all third-level subdomains and deeper:
 
 NOTE: When utilizing external nameservers, please take care with correct
 name resolution in those servers, including any gateway-suffixes, e.g.
-[emergate.net](http://emergate.net).
+<a target="_blank" rel="nofollow" href="http://emergate.net">emergate.net</a>.
 
 #### Example 1 - parent contains SD and NS records
 
@@ -259,7 +256,7 @@ subdomains will be resolved to the "parent domain" example.coin. Record
 Integration into a regular DNS tree
 -----------------------------------
 
-First, activate the [RFC1034](https://www.ietf.org/rfc/rfc1034.txt) DNS
+First, activate the <a target="_blank" rel="nofollow" href="https://www.ietf.org/rfc/rfc1034.txt">RFC1034</a> DNS
 server in Emercoin by specifing two optional parameters in the
 **emercoin.conf** config file, **EmerDNS** and **EmerDNSport**:
 
@@ -275,18 +272,14 @@ server to do it. Below we will show some examples.
 
 Running the Emercoin wallet and everything else on a single PC is the
 most simple case. For this we recommend to install the lightweight
-[Acrylic DNS
-Proxy](http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome)
+<a target="_blank" rel="nofollow" href="http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome">Acrylic DNS Proxy</a>
 onto your PC. Acrylic will improve the performance of your PC by
 resolving DNS requests with the local cache, decreasing latencies with
 browsing or any other Internet activity.
 
-For installation and initial configuration in Windows, see the [guide on
-the Acrylic
-website](http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome).
+For installation and initial configuration in Windows, see the <a target="_blank" rel="nofollow" href="http://mayakron.altervista.org/wikibase/show.php?id=AcrylicHome">guide on the Acrylic website</a>.
 After installation you should configure Acrylic to integrate Emercoin
-domain zones. A config file example is [available
-online](http://mayakron.altervista.org/wikibase/show.php?id=AcrylicConfiguration).
+domain zones. A config file example is <a target="_blank" rel="nofollow" href="http://mayakron.altervista.org/wikibase/show.php?id=AcrylicConfiguration">available online</a>.
 To configure, you should forward all requests to EmerDNS zones (*\*.emc*,
 *\*.coin*, *\*.lib*, *\*.bazar*) to the local Emercoin wallet, and all
 requests to other zones to the default DNS provider. This can be
@@ -307,22 +300,19 @@ SecondaryServerPort=5335
 Proxy\\*
 
 Alternately, you can download this
-[AcrylicConfiguration.ini](http://emercoin.com/files/AcrylicConfiguration.ini)
-file, pre-configured to use [OpenDNS](https://www.opendns.com/) as the
+<a target="_blank" rel="nofollow" href="http://emercoin.com/files/AcrylicConfiguration.ini">AcrylicConfiguration.ini</a>
+file, pre-configured to use <a target="_blank" rel="nofollow" href="https://www.opendns.com/">OpenDNS</a> as the
 primary & secondary DNS-provider (for regular DNS-tree), and local
 Emercoin wallet as the ternary provider, for domain zones *\*.emc*,
-*\*.coin*, *\*.lib*, *\*.bazar*. The Emercoin team also provides a preconfigured [Acrylic
-package](http://sourceforge.net/projects/emercoin/files/0.3.0/Acrylic%20%28EMC%20pre-configured%29.7z/download)
+*\*.coin*, *\*.lib*, *\*.bazar*. The Emercoin team also provides a preconfigured <a target="_blank" rel="nofollow" href="http://sourceforge.net/projects/emercoin/files/0.3.0/Acrylic%20%28EMC%20pre-configured%29.7z/download">Acrylic package</a>
 for download, already set up for Emercoin DNS.
 
 ### Single PC, BIND DNS proxy
 
 Instead of installing a DNS proxy, you also have the option to install a
 full service DNS server. Fortunately, the full DNS server "BIND" is
-available for Windows, and is free. You can find many [tutorials on the
-internet](https://duckduckgo.com/?q=bind+DNS+windows) that show how to
-install BIND onto Windows. For example, see [this
-manual](http://drupalmotion.com/article/dev-environment-install-and-configure-bind-dns-server-windows-7).
+available for Windows, and is free. You can find many <a target="_blank" rel="nofollow" href="https://duckduckgo.com/?q=bind+DNS+windows">tutorials on the internet</a> that show how to
+install BIND onto Windows. For example, see <a target="_blank" rel="nofollow" href="http://drupalmotion.com/article/dev-environment-install-and-configure-bind-dns-server-windows-7">this manual</a>.
 
 After installation you should tell BIND to forward EMC-zones to the
 local Emercoin wallet by adding to the BIND configuration file
@@ -375,14 +365,11 @@ course that PC should have a static LAN IP.
 ### Local network, DNSMASQ proxy
 
 Modern routers usually contain a built-in proxy DNS in their firmware.
-Usually this is
-[DNSMASQ](http://www.thekelleys.org.uk/dnsmasq/doc.html). Some router
-firmware like [DD-WRT](http://www.dd-wrt.com/) and
-[OpenWrt](https://www.openwrt.org/) (as well as others) allow you to
-configure the built-in DNS proxy (for instance, see [DD-WRT DNSMASQ
-manual](http://www.dd-wrt.com/wiki/index.php/DNSMasq_-_DNS_for_your_local_network_-_HOWTO)
-or [OpenWrt DNSMASQ
-manual](https://wiki.openwrt.org/doc/howto/dhcp.dnsmasq)).
+Usually this is <a target="_blank" rel="nofollow" href="http://www.thekelleys.org.uk/dnsmasq/doc.html">DNSMASQ</a>. Some router
+firmware like <a target="_blank" rel="nofollow" href="http://www.dd-wrt.com/">DD-WRT</a> and
+<a target="_blank" rel="nofollow" href="https://www.openwrt.org/">OpenWrt</a> (as well as others) allow you to
+configure the built-in DNS proxy (for instance, see <a target="_blank" rel="nofollow" href="http://www.dd-wrt.com/wiki/index.php/DNSMasq_-_DNS_for_your_local_network_-_HOWTO">DD-WRT DNSMASQ manual</a>[]
+or <a target="_blank" rel="nofollow" href="https://wiki.openwrt.org/doc/howto/dhcp.dnsmasq">OpenWrt DNSMASQ manual</a>).
 
 In this case the wallet should be run on a PC with a static LAN IP and
 DNSMASQ from the router would send DNS requests to that PC. Following
@@ -405,7 +392,7 @@ and point the NS records for this domain to a machine that is running
 the Emercoin wallet with an active DNS server on port 53 (see in the
 next paragraph for how to define the port). Once you do this, all
 regular NS requests to that domain will be resolved by the DNS server,
-and answers will be retrieved from the [Emercoin
+and answers will be retrieved from the 111_1 [Emercoin
 NVS](../Emercoin_NVS) database in the Emercoin wallet.
 
 For example, the Emercoin development team has set up the domain
