@@ -1,6 +1,6 @@
 # Command-line arguments
 
-Options can be set when launching emercoin via the command-line, or specified in [emercoin.conf](emercoin.conf).
+Options can be set when launching emercoin via the command-line, or specified in [emercoin.conf](/en/running-emercoin/emercoin-conf.md).
 
 You can check your version for a list of available commands by invoking emercoin with the argument _"-?"_ or _"-help"_. e.g:
 

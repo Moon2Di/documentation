@@ -1,17 +1,17 @@
 # Emercoin Services and Solutions
 
-At the heart of many of Emercoin's innovations is the [Emercoin NVS](../Blockchain_Services/Emercoin_NVS) which allows for the arbitrary storage of **name->value** pairs on the blockchain.
+At the heart of many of Emercoin's innovations is the [Emercoin NVS](/en/blockchain-services/emernvs.md) which allows for the arbitrary storage of **name->value** pairs on the blockchain.
 
 Among the current services are:
 
--   [EmerDNS](../Blockchain_Services/EmerDNS/EmerDNS_Introduction) - Domain Name System.
--   [EmerDPO](../Blockchain_Services/EmerDPO/EmerDPO_Introduction) - Digital Proof of Ownership.
--   [EmerSSH](../Blockchain_Services/EmerSSH) - PKI and Access Control List management
+-   [EmerDNS](/en/blockchain-services/emerdns/emerdns-introduction.md) - Domain Name System.
+-   [EmerDPO](/en/blockchain-services/emerdpo/emerdpo-introduction.md) - Digital Proof of Ownership.
+-   [EmerSSH](/en/blockchain-services/emerssh.md) - PKI and Access Control List management
     for servers.
--   [EmerSSL](../Blockchain_Services/EmerSSL/EmerSSL_Introduction) - Passwordless logins and proof
+-   [EmerSSL](/en/blockchain-services/emerssl/emerdpo-introduction.md) - Passwordless logins and proof
     of identity.
--   [ENUMER](../Blockchain_Services/ENUMER) - ENUM telephone record management.
--   [EmerMAGNET](../Blockchain_Services/EmerMAGNET) - BitTorrent links.
--   [EmerLNX](../Blockchain_Services/EmerLNX) - Peer-to-peer text-based advertisement
+-   [ENUMER](/en/blockchain-services/enumer.md) - ENUM telephone record management.
+-   [EmerMAGNET](/en/blockchain-services/emermagnet.md) - BitTorrent links.
+-   [EmerLNX](/en/blockchain-services/emerlnx.md) - Peer-to-peer text-based advertisement
     link exchange network.
 
