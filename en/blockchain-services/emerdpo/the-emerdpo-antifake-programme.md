@@ -4,13 +4,13 @@
 
 Functioning on the Emercoin platform, **EMC
 Antifake** is an anti-counterfeit and product tagging system that uses
-Emercoin's [EmerDPO](EmerDPO_Introduction) blockchain technology.
+Emercoin's [EmerDPO](/en/blockchain-services/emerdpo/emerdpo-introduction.md) blockchain technology.
 
 **EMC Antifake** allows manufacturers to create a unique ID or "digital
 passport" for each and every product unit that comes off their
 production line. These *"digital passports"* are stored by the
 manufacturer in Emercoin's [secure
-blockchain](../../Introduction/Security_Principles), thus allowing the
+blockchain](/en/introduction/security-principles.md), thus allowing the
 manufacturer and their customers to verify the authenticity of every
 product.
 
@@ -48,7 +48,9 @@ with the tools necessary for successful product integration and launch.
 How does it work in a practical sense?
 ------------
 
-![EmerDPO_2.jpg](EmerDPO_2.jpg)
+<div class="boxOverflow">
+<img src="/images/EmerDPO_2.jpg" alt="EmerDPO_2.jpg">
+</div>
 
 **For products still at the factory (or distributor’s storage)**, QR
 codes in the form of a label or tag are applied to each package. Each
@@ -59,8 +61,7 @@ a two-layered tag (see image).
 
 **In the store, the customer scans the code** with their smartphone.
 There is no specialized app required (almost all smartphones have a QR
-code scanner app built-in or [easily
-available](https://www.google.com/search?q=qr+code+app)).
+code scanner app built-in or <a target="_blank" rel="nofollow" href="https://www.google.com/search?q=qr+code+app">easily available</a>).
 
 **For a genuine, unsold product**, a page will be displayed providing
 information about the product and the manufacturer, confirming that the
@@ -102,8 +103,7 @@ criminal.
 
 **Only the holder of the manufacturer's private cryptographic key can
 produce valid labels capable of passing verification.** It is important
-to note that due to the nature of [public-key
-cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography),
+to note that due to the nature of <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Public-key_cryptography">public-key cryptography</a>,
 even the software developers and verification websites cannot create
 fake labels that would pass verification tests. In practice, there may
 be a single existing private key kept secret by the CEO of the
@@ -122,8 +122,7 @@ Example scenarios
 ### You (manufacturer) would like us to create a series of test tags for you
 
 If you are a manufacturer who would like our help to trial EMC Antifake
-during its pilot stage then please [contact the Emercoin
-team](http://emercoin.com/contact) today. During the pilot we may be
+during its pilot stage then please <a href="http://emercoin.com/en/contact">contact the Emercoin team</a> today. During the pilot we may be
 willing to take on all of the work, to produce several dozen labels for
 you and provide the required cryptographic keys, all free of charge
 within the timeframe of a few days. **All you'll need to do is apply the
@@ -142,13 +141,15 @@ labels to your products.
 
 ### You're a customer in a store
 
-![EmerDPO_3.jpg](EmerDPO_3.jpg)
+<div class="boxOverflow">
+<img src="/images/EmerDPO_3.jpg" alt="EmerDPO_3.jpg">
+</div>
 
 Using your smartphone (no specialized app required) you scan the tag on
 a product.
 
 If the code is valid then a web page opens (similar to
-[this](https://emcDPO.info/key/DEMO-1030)) displaying information about
+<a target="_blank" rel="nofollow" href="https://emcDPO.info/key/DEMO-1030">this</a>) displaying information about
 the manufacturer and that particular product, and informing you that the
 product is genuine and for sale. In that case, if you like the product
 you can go ahead and buy it with an added sense of security!
@@ -157,11 +158,13 @@ However, if the code is invalid, there will either be no page, or a page
 with an error message. In the case that an attacker copied a tag from an
 original product and reproduced it, you will receive a warning message
 that the product has already been purchased (similar to
-[this](https://EmcDPO.info/key/DEMO-1001)).
+<a target="_blank" rel="nofollow" href="https://EmcDPO.info/key/DEMO-1001">this</a>).
 
 ### After buying a genuine product
 
-![EmerDPO_4.jpg](EmerDPO_4.jpg)
+<div class="boxOverflow">
+<img src="/images/EmerDPO_4.jpg" alt="EmerDPO_4.jpg">
+</div>
 
 After purchase, you reveal the "purchase code" by tearing off the outer
 layer of the two-layer tag (see picture) or as otherwise placed inside
@@ -227,7 +230,7 @@ How much does this cost?
 ------------------------
 
 The cost of entering one name in the Emercoin
-blockchain using [Emercoin NVS](../Emercoin_NVS), is
+blockchain using [Emercoin NVS](/en/blockchain-services/emernvs.md), is
 approximately 0.2 EMC (US\$0.04 as of the beginning of 2017). The cost
 of printing a tag depends heavily on the volume and the size of the
 label and can come at about 5-10 cents even for smaller volumes. For
@@ -239,16 +242,14 @@ system are practically nil for any significant volume.
 More info
 ---------
 
-1.  See the following article on medium: [How to protect your products
-    against counterfeiting using
-    Blockchain](https://medium.com/@emer.tech/how-to-protect-your-products-against-counterfeiting-using-blockchain-78b4f5096324).
-2.  Please [contact the Emercoin team](http://emercoin.com/contact) if
+1.  See the following article on medium: <a target="_blank" rel="nofollow" href="https://medium.com/@emer.tech/how-to-protect-your-products-against-counterfeiting-using-blockchain-78b4f5096324">How to protect your products against counterfeiting using Blockchain</a>.
+2.  Please <a href="http://emercoin.com/contact">contact the Emercoin team</a> if
     you would like to join our pilot program.
-3.  You can also visit [EmerDPO.info](https://EmcDPO.info)
+3.  You can also visit <a target="_blank" rel="nofollow" href="https://EmcDPO.info">EmerDPO.info</a>
 
 Todo
 ----
 
--   Integrate the instructions from the [medium article](https://medium.com/@emer.tech/how-to-protect-your-products-against-counterfeiting-using-blockchain-78b4f5096324) into the article above.
+-   Integrate the instructions from the <a target="_blank" rel="nofollow" href="https://medium.com/@emer.tech/how-to-protect-your-products-against-counterfeiting-using-blockchain-78b4f5096324">medium article</a> into the article above.
 
 
