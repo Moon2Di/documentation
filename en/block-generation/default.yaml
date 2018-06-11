@@ -1,5 +1,5 @@
 name: Block Generation
-sort: 350,
+sort: 350
 files:
    proof-of-stake-minting: {
       name: Proof-of-Stake Minting,

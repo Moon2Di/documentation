@@ -1,4 +1,4 @@
-name: Core Wallets,
+name: Core Wallets
 sort: 100
 files:
    gui-wallet: {
