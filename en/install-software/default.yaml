@@ -1,6 +1,6 @@
 name: Install Software
 files:
-   150.other-wallets: {
+   other-wallets: {
       name: Other Wallets,
       meta: {
         title: Other Wallets - Emercoin Community Documentation,

@@ -1,6 +1,6 @@
 name: EmerDNS
 files:
-   050.emerdns-introduction: {
+   emerdns-introduction: {
       name: EmerDNS Introduction,
       meta: {
         title: EmerDNS Introduction - Emercoin Community Documentation,
@@ -9,7 +9,7 @@ files:
         author: Emercoin Community
       }
     }
-   100.i2p-domain-name-registration-based-on-blockchain: {
+   i2p-domain-name-registration-based-on-blockchain: {
       name: I2P Domain Name Registration based on blockchain,
       meta: {
         title: I2P Domain Name Registration based on blockchain - Emercoin Community Documentation,

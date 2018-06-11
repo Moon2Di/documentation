@@ -1,6 +1,6 @@
 name: EmerSSL
 files:
-   050.emerssl-introduction: {
+   emerssl-introduction: {
       name: EmerSSL Introduction,
       meta: {
         title: EmerSSL Introduction - Emercoin Community Documentation,
@@ -9,7 +9,7 @@ files:
         author: Emercoin Community
       }
     }
-   100.emerssl-guide: {
+   emerssl-guide: {
       name: EmerSSL Guide,
       meta: {
         title: EmerSSL Guide - Emercoin Community Documentation,
@@ -18,7 +18,7 @@ files:
         author: Emercoin Community
       }
     }
-   150.emerssl-infocard: {
+   emerssl-infocard: {
       name: EmerSSL InfoCard,
       meta: {
         title: EmerSSL InfoCard - Emercoin Community Documentation,
@@ -27,7 +27,7 @@ files:
         author: Emercoin Community
       }
     }
-   200.ports: {
+   ports: {
       name: Ports,
       meta: {
         title: Ports - Emercoin Community Documentation,
@@ -36,7 +36,7 @@ files:
         author: Emercoin Community
       }
     }
-   250.testnet: {
+   testnet: {
       name: Testnet,
       meta: {
         title: Testnet - Emercoin Community Documentation,

@@ -1,6 +1,6 @@
 name: Blockchain Services
 files:
-   050.introduction-to-emercoin-services: {
+   introduction-to-emercoin-services: {
       name: Introduction to Emercoin Services,
       meta: {
         title: Introduction to Emercoin Services - Emercoin Community Documentation,
@@ -9,7 +9,7 @@ files:
         author: Emercoin Community
       }
     }
-   100.emernvs: {
+   emernvs: {
       name: EmerNVS,
       meta: {
         title: EmerNVS - Emercoin Community Documentation,
@@ -18,7 +18,7 @@ files:
         author: Emercoin Community
       }
     }
-   150.emerssh: {
+   emerssh: {
       name: EmerSSH,
       meta: {
         title: EmerSSH - Emercoin Community Documentation,
@@ -27,7 +27,7 @@ files:
         author: Emercoin Community
       }
     }
-   350.emerlnx: {
+   emerlnx: {
       name: EmerLNX,
       meta: {
         title: EmerLNX - Emercoin Community Documentation,
@@ -36,7 +36,7 @@ files:
         author: Emercoin Community
       }
     }
-   400.emermagnet: {
+   emermagnet: {
       name: EmerMAGNET,
       meta: {
         title: EmerMAGNET - Emercoin Community Documentation,
@@ -45,7 +45,7 @@ files:
         author: Emercoin Community
       }
     }
-   450.enumer: {
+   enumer: {
       name: ENUMER,
       meta: {
         title: ENUMER - Emercoin Community Documentation,

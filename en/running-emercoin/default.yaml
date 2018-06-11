@@ -1,6 +1,6 @@
 name: Running Emercoin
 files:
-   050.linux-quickstart: {
+   linux-quickstart: {
       name: Linux Quickstart,
       meta: {
         title: Linux Quickstart - Emercoin Community Documentation,
@@ -9,7 +9,7 @@ files:
         author: Emercoin Community
       }
     }
-   100.command-line: {
+   command-line: {
       name: Command Line,
       meta: {
         title: Command Line - Emercoin Community Documentation,
@@ -18,7 +18,7 @@ files:
         author: Emercoin Community
       }
     }
-   150.emercoin-conf: {
+   emercoin-conf: {
       name: emercoin.conf,
       meta: {
         title: Configuration - Emercoin Community Documentation,
@@ -27,7 +27,7 @@ files:
         author: Emercoin Community
       }
     }
-   200.ports: {
+   ports: {
       name: Ports,
       meta: {
         title: Ports - Emercoin Community Documentation,
@@ -36,7 +36,7 @@ files:
         author: Emercoin Community
       }
     }
-   250.testnet: {
+   testnet: {
       name: Testnet,
       meta: {
         title: Testnet - Emercoin Community Documentation,

@@ -1,5 +1,5 @@
 files:
-   050.about-emercoin: {
+   about-emercoin: {
       name: About Emercoin,
       meta: {
         title: About Emercoin - Emercoin Community Documentation,
@@ -8,7 +8,7 @@ files:
         author: Emercoin Community
       }
     }
-   250.emercoin-api: {
+   emercoin-api: {
       name: Emercoin API,
       meta: {
         title: Emercoin API - Emercoin Community Documentation,
@@ -17,7 +17,7 @@ files:
         author: Emercoin Community
       }
     }
-   400.emercoin-press-kit: {
+   emercoin-press-kit: {
       name: Emercoin Press Kit,
       meta: {
         title: Emercoin Press Kit - Emercoin Community Documentation,
@@ -26,7 +26,7 @@ files:
         author: Emercoin Community
       }
     }
-   450.links-resources: {
+   links-resources: {
       name: Links & Resources,
       meta: {
         title: Links & Resources - Emercoin Community Documentation,
