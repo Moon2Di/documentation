@@ -1,6 +1,6 @@
 # I2P Domain Name Registration with EmerDNS
 
-Traditionally, [I2P](https://en.wikipedia.org/wiki/I2P) does not have a single domain name system. There are
+Traditionally, <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/I2P">I2P</a> does not have a single domain name system. There are
 several independent registrars with their own rules. Although among some
 registrars there is peering, in creating a I2P website, it will still
 require separate registration, and lists of hosts with different
@@ -8,10 +8,10 @@ registrars may vary greatly. In the beginning of creating I2P this situation was
 centralized structure was considered a single point of denial. But today, a
 suitable structure already exists: Blockchain.
 
-In the heart of the cryptocurrency [Emercoin](http://emercoin.com) is a
+In the heart of the cryptocurrency <a href="http://emercoin.com/en/">Emercoin</a> is a
 special version of blockchain having additional functionality that is -
 recording and storing arbitrary pairs of the **name-&gt;value** pairs, [Name /
-Value Storage - NVS](../Emercoin_NVS). This technology is already applied to various blockchain services, in
+Value Storage - NVS](/en/blockchain-services/emernvs.md). This technology is already applied to various blockchain services, in
 particular, in decentralized, uncensorable DNS zones for .lib, .emc,
 .coin, .bazar, and DNS server built right into emercoin wallet.
 
@@ -24,11 +24,11 @@ To register a, I2P domain name put a pair inside the blockchain:
 
     name = i2p: myhost.i2p, value = <I2P local destination>
 
-Local destination are has in the **Local dectination(L):** field on the [eepsite i2ptunnel configuration page](http://127.0.0.1:7657/i2ptunnel/edit.jsp?tunnel=3).
+Local destination are has in the **Local dectination(L):** field on the <a target="_blank" rel="nofollow" href="http://127.0.0.1:7657/i2ptunnel/edit.jsp?tunnel=3">eepsite i2ptunnel configuration page</a>.
 
-For system support there is a special registrar site - <http://emercoin.i2p>, aka <http://o6aga5qbgi555rulkuerbjzmmibupcpywownhuokl7b5s3ktmbsa.b32.i2p/>,[аddress helper](http://o6aga5qbgi555rulkuerbjzmmibupcpywownhuokl7b5s3ktmbsa.b32.i2p/?i2paddresshelper=K8DkHBpCSfsylTOZtlZ2NI9lA0cqT97YF7CJ4Zvnwp-aXmSOmumcMonr7IvXatZkg63LCNnnYBf5cJ1-23Lb2uMD3eg8VckPVbOvhYVHJnQ-p1McGOywfDE0C~5RzVI8OA36YGtiXM2JFOic3Beh8~pWHIHF1bFHkwUnuY-sVNYghDijDloKbHgqhhZmgDTV-5D46zRuqXQoma2EoK-ZALitI3PxRuJCRB9bQLK2y7iETeqjulnKsBytNsGgrl7dOiK8GXcMA7HFxcgF7qNq-2fFhLmvP6DNxdQfToQ2RNKMLfxjl7Us7jWDpYJTcNADwbJX5pzusJHhiK7aVUi1TI8efdNkeP95A7QKpi1qcBJrfT3jDYKJSKuK6MNqzYk9HbRKLRmxTzMJpdhOJWMhIsASGkTJfJFwAgZ~XDGYoQtuvQqbVokeCcczuGpL7I~0G7zt401YXaOQ6XzUTy88PWsCdLBM~RJjkCHvYgG9Od-wiBLKDy7V7kYgR1vR96liBQAEAAcAAA==)
+For system support there is a special registrar site - <a target="_blank" rel="nofollow" href="http://emercoin.i2p">http://emercoin.i2p</a>, aka <a target="_blank" rel="nofollow" href="http://o6aga5qbgi555rulkuerbjzmmibupcpywownhuokl7b5s3ktmbsa.b32.i2p/">http://o6aga5qbgi555rulkuerbjzmmibupcpywownhuokl7b5s3ktmbsa.b32.i2p/</a>,<a target="_blank" rel="nofollow" href="http://o6aga5qbgi555rulkuerbjzmmibupcpywownhuokl7b5s3ktmbsa.b32.i2p/?i2paddresshelper=K8DkHBpCSfsylTOZtlZ2NI9lA0cqT97YF7CJ4Zvnwp-aXmSOmumcMonr7IvXatZkg63LCNnnYBf5cJ1-23Lb2uMD3eg8VckPVbOvhYVHJnQ-p1McGOywfDE0C~5RzVI8OA36YGtiXM2JFOic3Beh8~pWHIHF1bFHkwUnuY-sVNYghDijDloKbHgqhhZmgDTV-5D46zRuqXQoma2EoK-ZALitI3PxRuJCRB9bQLK2y7iETeqjulnKsBytNsGgrl7dOiK8GXcMA7HFxcgF7qNq-2fFhLmvP6DNxdQfToQ2RNKMLfxjl7Us7jWDpYJTcNADwbJX5pzusJHhiK7aVUi1TI8efdNkeP95A7QKpi1qcBJrfT3jDYKJSKuK6MNqzYk9HbRKLRmxTzMJpdhOJWMhIsASGkTJfJFwAgZ~XDGYoQtuvQqbVokeCcczuGpL7I~0G7zt401YXaOQ6XzUTy88PWsCdLBM~RJjkCHvYgG9Od-wiBLKDy7V7kYgR1vR96liBQAEAAcAAA==">аddress helper</a>
 
-[Link](http://o6aga5qbgi555rulkuerbjzmmibupcpywownhuokl7b5s3ktmbsa.b32.i2p/hosts.txt) for address book subscriptions settings. You may add this link to file **.i2p/addressbook/subscriptions.txt** or in the "Subscriptions" on the "Address Book" in the Web console of the router.
+<a target="_blank" rel="nofollow" href="http://o6aga5qbgi555rulkuerbjzmmibupcpywownhuokl7b5s3ktmbsa.b32.i2p/hosts.txt">Link</a> for address book subscriptions settings. You may add this link to file **.i2p/addressbook/subscriptions.txt** or in the "Subscriptions" on the "Address Book" in the Web console of the router.
 
 ### emercoin.i2p has standard functionality of the I2P registrar.
 
@@ -60,7 +60,7 @@ registered by the Emercoin team to protect them from cybersquatters. Now
 everything is ready for transferring these names to their owners.
 Absolutely free.
 
-If you have a website in the I2P network, go to <http://emercoin.i2p> and enter the name of your website into the search box.
+If you have a website in the I2P network, go to <a target="_blank" rel="nofollow" href="http://emercoin.i2p">http://emercoin.i2p</a> and enter the name of your website into the search box.
 
 You should see a similar inscription:
 
@@ -73,7 +73,7 @@ into the root of yout site to initiate domain transfer. See transfer manual.
 This means that everything is fine. You can take a control of the domain
 account right now.
 
--   [Download](https://sourceforge.net/projects/emercoin/files/) and
+-   <a target="_blank" rel="nofollow" href="https://sourceforge.net/projects/emercoin/files/">Download</a> and
     install the Emercoin Core Wallet. There are versions for Linux
     and Windows, GUI and daemon – whatever is more comfortable.
 -   Generate an address in your wallet (let's assume for this explanation that your address
@@ -108,15 +108,14 @@ How to register a new name
 For example, your I2P site named **example.i2p**.
 
 -   It is needed to
-    [download](https://sourceforge.net/projects/emercoin/files/) and run
+    <a target="_blank" rel="nofollow" href="https://sourceforge.net/projects/emercoin/files/">download</a> and run
     the Emercoin Wallet.
 -   Your wallet must contain a small amount of EMC from somewhere (e. g. 0.3 EMC).
     For example, you may buy this on many cryptocurrency marketpaces or
     in the cryptocurency exchanges.
 -   Create new name in the emercoin's blockchain:
     -   In the Emercoin-QT:
-        -   Open [eepsite i2ptunnel configuration
-            page](http://127.0.0.1:7657/i2ptunnel/edit.jsp?tunnel=3)
+        -   Open <a target="_blank" rel="nofollow" href="http://127.0.0.1:7657/i2ptunnel/edit.jsp?tunnel=3">eepsite i2ptunnel configuration page</a>
         -   Check the content of the field "Website name" -- should
             be "example.i2p".
         -   Copy the hash of site - content of the field "Local
@@ -130,8 +129,7 @@ For example, your I2P site named **example.i2p**.
         -   Paste hash of site to field "value (0%):".
         -   Click "name\_new".
     -   In the emercoind:
-        -   Open [eepsite i2ptunnel configuration
-            page](http://127.0.0.1:7657/i2ptunnel/edit.jsp?tunnel=3)
+        -   Open <a target="_blank" rel="nofollow" href="http://127.0.0.1:7657/i2ptunnel/edit.jsp?tunnel=3">eepsite i2ptunnel configuration page</a>
         -   Check the content of the field "Website name" -- should
             be "example.i2p".
         -   Copy the hash of site - content of the field "Local
