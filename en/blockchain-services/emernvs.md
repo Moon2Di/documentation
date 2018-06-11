@@ -2,9 +2,9 @@
 
 # The Emercoin NVS
 
-Emercoin provides a service for storing **name-&gt;value** pairs in its blockchain (Name-Value Storage, or NVS). The initial concept was inherited from the [NameCoin](http://namecoin.info) cryptocurrency yet while NameCoin is mostly focused on supporting decentralized domain zone **\*.bit** in their extension, Emercoin provides a universal, extensible service to store and maintain **name-&gt;value** pairs without imposing a narrow specialization.
+Emercoin provides a service for storing **name-&gt;value** pairs in its blockchain (Name-Value Storage, or NVS). The initial concept was inherited from the <a target="_blank" rel="nofollow" href="http://namecoin.info">NameCoin</a> cryptocurrency yet while NameCoin is mostly focused on supporting decentralized domain zone **\*.bit** in their extension, Emercoin provides a universal, extensible service to store and maintain **name-&gt;value** pairs without imposing a narrow specialization.
 
-Of course, Emercoin supports distributed [alternative DNS service](http://en.wikipedia.org/wiki/Alternative_DNS_root) too, and each Emercoin wallet contains a built-in simple DNS server, supporting the standard [RFC1034](https://www.ietf.org/rfc/rfc1034.txt) UDP DNS protocol.
+Of course, Emercoin supports distributed <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Alternative_DNS_root">alternative DNS service</a> too, and each Emercoin wallet contains a built-in simple DNS server, supporting the standard <a target="_blank" rel="nofollow" href="https://www.ietf.org/rfc/rfc1034.txt">RFC1034</a> UDP DNS protocol.
 
 NVS overview
 ------------
@@ -20,13 +20,12 @@ blockchain to be an extremely reliable place to publish and maintain
 public keys for many cryptographic applications such as SSH/SSL
 certificates. Like regular payment transactions, NVS pairs stored in the
 blockchain also get confirmations during block generation, and are
-virtually immune to being altered in a [Man-In-the-Middle
-attack](http://en.wikipedia.org/wiki/Man-in-the-middle_attack).
+virtually immune to being altered in a <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Man-in-the-middle_attack">Man-In-the-Middle attack</a>.
 
 Since the blockchain is a trusted data store protected from unauthorized
 modification it is a great foundation for the deployment of
 cryptographic Public Key Infrastructure
-([PKI](http://en.wikipedia.org/wiki/Public_key_infrastructure)), Digital
+(<a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Public_key_infrastructure">PKI</a>), Digital
 Proof-of-Ownership (DPO), immutable recordkeeping, timestamps, and other
 distributed services.
 
@@ -46,39 +45,38 @@ payment address is able to modify or delete the pair, or transfer
 ownership to another address. When a new pair is created, a new payment
 address for the pair is created in the local wallet.
 
-You can manage NVS entries either through the Emercoin [wallet
-GUI](http://emercoin.com#download), or via the
-[emercoin-cli](../Running_Emercoin/Command_Line).
+You can manage NVS entries either through the Emercoin <a target="_blank" rel="nofollow" href="http://emercoin.com#download">wallet GUI</a>, or via the
+[emercoin-cli](/en/running-emercoin/command-line.md).
 
 Service abbreviations
 --------------
 While you are free to create your own services using Emercoin's NVS, we
 recommend using the following supported service abbreviations:
 
-  Service abbreviation  | Service description                                                     | Associated Emercoin Service
+  Service abbreviation  | Service description                                                    | Associated Emercoin Service
   ----------------------|------------------------------------------------------------------------|-----------------------------------
-  dns                   | DNS record                                                             |  [EmerDNS](../Blockchain_Services/EmerDNS/EmerDNS_Introduction)
-  ssh                   | SSH public key                                                         |  [EmerSSH](../Blockchain_Services/EmerSSH)
+  dns                   | DNS record                                                             |  [EmerDNS](/en/blockchain-services/emerdns/emerdns-introduction.md)
+  ssh                   | SSH public key                                                         |  [EmerSSH](/en/blockchain-services/emerssh.md)
   gpg                   | GNU PGP public key|
-  kx                    | [RFC2230](http://tools.ietf.org/html/rfc2230) public key|
-  ssl                   | SSL Certificate                                                        |  [EmerSSL](../Blockchain_Services/EmerSSL/EmerSSL_Introduction)
+  kx                    | <a target="_blank" rel="nofollow" href="http://tools.ietf.org/html/rfc2230">[RFC2230</a>]() public key|
+  ssl                   | SSL Certificate                                                        |  [EmerSSL](/en/blockchain-services/emerssl/emerssl-introduction.md)
   bls                   | BLS digital signature public key
-  tts                   | [Trusted Timestamp](http://en.wikipedia.org/wiki/Trusted_timestamping)  | EmcTTS
-  lnx                   | Advertising Link Exchanger                                              | [EmerLNX](../Blockchain_Services/EmerLNX)
-  dpo                   | Digital Proof-of-Ownership                                              | [EmerDPO](../Blockchain_Services/EmerDPO/EmerDPO_Introduction)
-  magnet                | BitTorrent magnet links                                                 | [EmerMAGNET](../Blockchain_Services/EmerMAGNET)
+  tts                   | <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Trusted_timestamping">Trusted Timestamp</a>  | EmcTTS
+  lnx                   | Advertising Link Exchanger                                              | [EmerLNX](/en/blockchain-services/emerlnx.md)
+  dpo                   | Digital Proof-of-Ownership                                              | [EmerDPO](/en/blockchain-services/emerdpo/emerdpo-introduction.md)
+  magnet                | BitTorrent magnet links                                                 | [EmerMAGNET](/en/blockchain-services/emermagnet.md)
   swift                 | Bank's branch info for SWIFT transfers
-  enum                  | [ENUM telephone record](http://www.voip-info.org/wiki/view/ENUM)       | [ENUMER](../Blockchain_Services/ENUMER)
+  enum                  | <a target="_blank" rel="nofollow" href="http://www.voip-info.org/wiki/view/ENUM">ENUM telephone record</a>     | [ENUMER](/en/blockchain-services/enumer.md)
 
 Managing NVS entries with the GUI
 -------------
-<div style="boxOverflow"><img style="float:left;" src="/images/NVS_UI.jpg" alt="Emercoin's 'Manage Names' tab." width="756"></div>
+<div style="boxOverflow"><img src="/images/NVS_UI.jpg" alt="Emercoin's 'Manage Names' tab." width="756"></div>
 <br>
 
 The "Manage Names" tab includes the following elements:
 
 -   **name:** If this NVS entry will be used with a particular [service
-    abbreviation](#page_Service-abbreviations) (dns:, ssl:,
+    abbreviation](#page_service-abbreviations) (dns:, ssl:,
     ssh:, etc) then characters allowed by the appropriate service prefix
     should be used. e.g.
 
@@ -140,7 +138,7 @@ Managing NVS entries with the command line
 ----------------------------------
 
 Below is the list of
-[Emercoin API](../Emercoin_API) commands for
+[Emercoin API](/en/emercoin-api.md) commands for
 managing NVS entries. Parameters in square brackets [ ] are optional.
 
 	name_new <name> <value> <days> [toaddress]
