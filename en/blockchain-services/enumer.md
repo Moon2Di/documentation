@@ -1,18 +1,14 @@
 <div style="boxOverflow"><img src="/images/ENUMER.png" alt="ENUMER image" width="356"></div>
 <br>
 
-ENUMER is a system for supporting [ENUM telephone
-records](http://www.voip-info.org/wiki/view/ENUM) on Emercoin's
-blockchain, under the **"enum"** service abbreviation in the [Emercoin
-NVS](/Emercoin_NVS).
+ENUMER is a system for supporting <a target="_blank" rel="nofollow" href="http://www.voip-info.org/wiki/view/ENUM">ENUM telephone records</a> on Emercoin's
+blockchain, under the **"enum"** service abbreviation in the [Emercoin NVS](/en/blockchain-services/emernvs.md).
 
 ENUMER Introduction
 -------------------
 
 ENUM (E.164 Number to URI Mapping)
-translates telephone numbers into Internet addresses, for use by [SIP
-Proxies](https://en.wikipedia.org/wiki/SIP_proxy), [VoIP
-gateways](https://en.wikipedia.org/wiki/VoIP_gateway), and other
+translates telephone numbers into Internet addresses, for use by <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/SIP_proxy">SIP Proxies</a>, <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/VoIP_gateway">VoIP gateways</a>, and other
 specialised telephony systems.
 
 A softswitch can send ENUM requests to a wallet:
@@ -32,7 +28,7 @@ or public ENUMER gateway:
 ### NVS Example
 
 ENUM data should be stored in the following **name-&gt;value** format in
-the [Emercoin NVS](../Blockchain_Services/Emercoin_NVS):
+the [Emercoin NVS](/en/blockchain-services/emernvs.md):
 
     "name" : "enum:12027139373:0"
     "value" : "SIG=ver:enum|HxQY4nUHtf+nK/btxa0jT4UuPQPKk0pyxrJuXlF8YVVFDKhY6PVcE1XiSvTOxlQryzfA1GIH2IRYk7uGHrZIbP4= E2U+sip=100|10|!.*$!sip:17772328716@in.callcentric.com
@@ -41,7 +37,7 @@ Configuration
 -------------
 
 To activate this feature, set some config params in
-**[emercoin.conf](../Running_Emercoin/emercoin.conf)**:
+**[emercoin.conf](/en/running-emercoin/emercoin-conf.md)**:
 
 ```text
 #EmerDNSallowed=.coin|.emc|.lib|.bazar           # remove Allowed TLDs without ENUM
@@ -53,8 +49,7 @@ enumtollfree=@enum:tollfree
 Retrieval
 ---------
 
-Retrieving an ENUM record from the [Emercoin
-NVS](/Emercoin_NVS):
+Retrieving an ENUM record from the [Emercoin NVS](/en/blockchain-services/emernvs.md):
 
     $ emc name_show enum:12027139373:0
 
@@ -73,8 +68,7 @@ And the result:
 ```
 
 You can view ENUM records that have already been deployed in the Emercoin
-blockchain on a blockexplorer, by [clicking
-here](https://emercoin.mintr.org/nvs/enum///25/0/1).
+blockchain on a blockexplorer, by <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org/nvs/enum///25/0/1">clicking here</a>.
 
 Registration
 ------------
@@ -83,8 +77,8 @@ To register your phone number with ENUMER (Emercoin ENUM), you will need
 to:
 
 1.  Obtain a signature (as this is not currently automated, please
-    [contact the Emercoin team](http://emercoin.com/contact) for manual
+    <a href="https://emercoin.com/en/contacts">contact the Emercoin team</a> for manual
     verification),
 2.  Insert the signature in the **"enum"** record for your phone number
-    into the [Emercoin NVS](Emercoin_NVS).
+    into the [Emercoin NVS](/en/blockchain-services/emernvs.md).
 
