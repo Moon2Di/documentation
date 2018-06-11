@@ -392,12 +392,11 @@ and point the NS records for this domain to a machine that is running
 the Emercoin wallet with an active DNS server on port 53 (see in the
 next paragraph for how to define the port). Once you do this, all
 regular NS requests to that domain will be resolved by the DNS server,
-and answers will be retrieved from the 111_1 [Emercoin
-NVS](../Emercoin_NVS) database in the Emercoin wallet.
+and answers will be retrieved from the [Emercoin NVS](/en/blockchain-services/emernvs.md) database in the Emercoin wallet.
 
 For example, the Emercoin development team has set up the domain
-**[emergate.net](http://emergate.net)** (Emercoin Gateway Network). When
-you click <http://emer.coin.emergate.net>, your name request is resolved
+**<a target="_blank" rel="nofollow" href="http://emergate.net">emergate.net</a>** (Emercoin Gateway Network). When
+you click <a target="_blank" rel="nofollow" href="http://emer.coin.emergate.net">http://emer.coin.emergate.net</a>, your name request is resolved
 by the Emercoin wallet, and you go directly to **emer.coin** in the
 EMC-supported domain zone.
 
@@ -416,7 +415,7 @@ Name Server: SEED1.EMERGATE.NET
 Name Server: SEED2.EMERGATE.NET
 ```
 
-You can check this info using [whois](https://www.computerhope.com/unix/uwhois.htm).
+You can check this info using <a target="_blank" rel="nofollow" href="https://www.computerhope.com/unix/uwhois.htm">whois</a>.
 
 On each of these nameservers runs an Emercoin wallet with an active DNS
 server which serves the gateway and local zone for emergate.net. DNS
@@ -471,10 +470,10 @@ www=A=192.241.241.153|TXT=Emercoin www-site
 Virtual webhosts (vhosts)
 -------------------------
 
-When you run [virtual hosts](https://en.wikipedia.org/wiki/Virtual_hosting), you will be required to modify your web
+When you run <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Virtual_hosting">virtual hosts</a>, you will be required to modify your web
 server's config to correctly distinguish your hostname with as many possible gateway-suffixes as you wish (or without suffix if name
 resolved by LAN or locally). This is easy to do by creating a vname-alias with an asterisk "\*" as
-the suffix. The following example shows the appropriate [Apache web server](https://en.wikipedia.org/wiki/Apache_HTTP_Server) config for the virtual server **exchange.emc**. Note the **ServerAlias** line:
+the suffix. The following example shows the appropriate <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Apache_HTTP_Server">Apache web server</a> config for the virtual server **exchange.emc**. Note the **ServerAlias** line:
 
 ```text
 <VirtualHost *:80>
