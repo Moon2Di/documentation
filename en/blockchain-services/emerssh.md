@@ -2,19 +2,17 @@
 
 # EmerSSH
 
-EmerSSH is a system for [Public Key
-Infrastructure](https://en.wikipedia.org/wiki/Public_key_infrastructure)
-(PKI) and [Access Control
-List](https://en.wikipedia.org/wiki/Access_control_list) (ACL)
-management on the [Emercoin](../About_Emercoin) blockchain.
+EmerSSH is a system for <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Public_key_infrastructure">Public Key Infrastructure</a>
+(PKI) and <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Access_control_list">Access Control List</a> (ACL)
+management on the [Emercoin](/en/about-emercoin.md) blockchain.
 
 It is possible to create a bridge between
-[OpenSSH](https://en.wikipedia.org/wiki/Openssh) and the Emercoin
+<a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Openssh">OpenSSH</a> and the Emercoin
 cryptocurrency's blockchain. The result is a comfortable, safe and very
 flexible way to log in to multiple servers using the SSH protocol.
 
 A simple program
-**[EmerSSH](https://github.com/emercoin/emcssh/releases)** provides a
+**<a target="_blank" rel="nofollow" href="https://github.com/emercoin/emcssh/releases">EmerSSH</a>** provides a
 bridge between OpenSSH and the Emercoin blockchain, allowing for secure,
 decentralized management of PKI. When OpenSSH is configured to refer to
 **EmerSSH**, the program will query the Emercoin blockchain to retrieve
@@ -28,9 +26,9 @@ references to other groups as well as individual users - allowing for
 the creation of recursive authentication trees.
 
 EmerSSH operates under the **"ssh"** service abbreviation in the
-[Emercoin NVS](../Blockchain_Services/Emercoin_NVS). Records are considered secure
+[Emercoin NVS](/en/blockchain-services/emernvs.md). Records are considered secure
 and unalterable due to the [security provided by the Emercoin
-blockchain](../Introduction/Security_Principles).
+blockchain](/en/introduction/security-principles.md).
 
 Installation
 ------------
@@ -51,7 +49,7 @@ Now install curl and jansson:
 
     $ apt-get install libcurl4-openssl-dev libjansson-dev
 
-Next, you need to download and install the <u>latest</u> [EmerSSH release](https://github.com/emercoin/emcssh/releases):
+Next, you need to download and install the <u>latest</u> <a target="_blank" rel="nofollow" href="https://github.com/emercoin/emcssh/releases">EmerSSH release</a>:
 
     $ wget https://github.com/emercoin/emcssh/archive/0.0.4.tar.gz  (change to whatever is the latest release)
     $ tar xfz 0.0.4.tar.gz
@@ -147,16 +145,20 @@ Now we need to generate a key pair for a user. In Linux, simply type the followi
     $ ssh-keygen -t rsa -b 4096 -C "@your-username"
 
 If the user is running Windows, we recommend using
-[PuTTYgen](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
+<a target="_blank" rel="nofollow" href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTYgen</a>.
 
 Run PuTTYgen, change the number of bits to 4096 and click **Generate**.
 
+<div class="boxOverflow">
 <img src="/images/EmerSSH-01.png" alt="PuTTYgen" title="PuTTYgen">
+</div>
 
 Wave the mouse cursor on the screen during key generation, after which
 you should see something like this:
 
+<div class="boxOverflow">
 <img src="/images/EmerSSH-02.png" alt="PuTTYgen" title="PuTTYgen">
+</div>
 
 Click **Save Private Key** and store the key on your computer. Password
 protection is not needed, therefore, you can agree to save without a
@@ -165,7 +167,7 @@ password.
 ### Add the public key to the Emercoin NVS
 
 Next, we need to add the public key (highlighted for Windows in the picture above)
-to the [Emercoin NVS](../Blockchain_Services/Emercoin_NVS) as a **name-&gt;value**
+to the [Emercoin NVS](/en/blockchain-services/emernvs.md) as a **name-&gt;value**
 pair. Do this in your Emercoin wallet on your PC. In the **name** field,
 specify:
 
@@ -175,7 +177,9 @@ In the **value** field paste your public key from PuTTYgen. The **new
 address** field can be left blank. Specify the number of days, and click
 **Submit.**
 
+<div class="boxOverflow">
 <img src="/images/EmerSSH-wallet.png" alt="Emercoin Wallet" title="Emercoin Wallet">
+</div>
 
 Now we need to wait for confirmation of our transaction. To save time
 while waiting for confirmation, you can now go back to your server, and
@@ -232,7 +236,9 @@ Without closing the current session, authorize PuTTY to log in without a
 password. To do this, open a new PuTTY window, enter the IP address of
 your server then navigate to **SSH &gt; Auth** in PuTTY:
 
+<div class="boxOverflow">
 <img src="/images/EmerSSH-03.png" alt="PuTTY" title="PuTTY">
+</div>
 
 Click **Browse ...** and specify the path to your private key.
 
@@ -240,7 +246,9 @@ On the tab **Connection &gt; Data** we can specify the user under which
 we want to connect. If not specified, don't worry - in this case the
 server will ask for the user name when you connect.
 
+<div class="boxOverflow">
 <img src="/images/EmerSSH-04.png" alt="PuTTY" title="PuTTY">
+</div>
 
 Click **Open** and connect to the server. If it connects then
 congratulations, you have succeeded!
@@ -270,7 +278,9 @@ Run PuTTYgen, click **Load** and choose our key \*.ppk. Next, set a
 password in **Key passphrase** and **Confirm passphrase.** Go to the tab
 **Conversions** and export key in the format of OpenSSH:
 
+<div class="boxOverflow">
 <img src="/images/EmerSSH-05.png" alt="PuTTY" title="PuTTY">
+</div>
 
 Now we want to add the key to the OS X system. Open a terminal and
 navigate to the folder where you exported the key. I have a folder named
@@ -296,7 +306,6 @@ If the server does not ask for a password, then all is well.
 More info
 ---------
 
-1.  See the following article on medium: [What is EmerSSH?
-    FAQ](https://medium.com/@emer.tech/what-is-emerssh-faq-d38a6a0d073c).
+1.  See the following article on medium: <a target="_blank" rel="nofollow" href="https://medium.com/@emer.tech/what-is-emerssh-faq-d38a6a0d073c">What is EmerSSH? FAQ</a>.
 
 
