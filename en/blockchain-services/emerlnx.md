@@ -250,8 +250,7 @@ you will need to add it to your local ENCLNX database. To do this, run
 
         $ php ./uplo_contract.php MyFirstContract 3.00
 
-6. Publish your EMCLNX contract into the [Emercoin
-NVS](Emercoin_NVS). It is easiest to do this using the GUI
+6. Publish your EMCLNX contract into the [Emercoin NVS](/en/blockchain-services/emernvs.md). It is easiest to do this using the GUI
 wallet, under the "Manage Names" tab.
 
     -   For **"name"** : enter your contract name under the **"lnx"**
@@ -338,7 +337,7 @@ following EMCLNX links, and so hosts should take several precautions:
 
 Hosts should specify that search engines should not index the
 **/emclnx** directory in their website's
-[robots.txt](https://en.wikipedia.org/wiki/Robots_exclusion_standard) as
+<a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Robots_exclusion_standard">robots.txt</a> as
 follows:
 
     User-agent: * Disallow: /emclnx/
@@ -364,8 +363,8 @@ FAQ
 Unfortunately the EMCLNX project is frozen until it can be further
 developed
 
-<s>There is a [test page](http://emercoin.com/emclnx/user_page.php) on
-emercoin.com, and [cryptor](https://cryptor.net) (see gray ad line on
+<s>There is a <a href="http://emercoin.com/emclnx/user_page.php">test page</a> on
+emercoin.com, and <a target="_blank" rel="nofollow" href="https://cryptor.net">cryptor</a> (see gray ad line on
 top of page).</s>
 
 ***If a Buyer does not pay, what happens? Will the system prevent their
@@ -389,8 +388,7 @@ ensure payment requests are processed correctly?***
 CloudFlare and similar services cache pages, and if a request comes to
 **lnx\_pay.php**, they may return a cached value. As a result, the Buyer
 does not pay for referrals, and their link will become banned by other
-participants. CloudFlare provides a [solution
-here](https://support.cloudFlare.com/hc/en-us/articles/200172316-How-do-I-exclude-a-specific-URL-from-CloudFlare-s-caching).
+participants. CloudFlare provides a <a target="_blank" rel="nofollow" href="https://support.cloudFlare.com/hc/en-us/articles/200172316-How-do-I-exclude-a-specific-URL-from-CloudFlare-s-caching">solution here</a>.
 According to this solution, you can exclude certain urls from
 CloudFlare's caching, and set up a rule to bypass the cache for EMCLNX
 related links. e.g.
