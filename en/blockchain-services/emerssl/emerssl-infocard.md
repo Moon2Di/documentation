@@ -2,7 +2,7 @@
 
 EmerSSL InfoCard is a decentralized distributed "business card" system on
 the Emercoin blockchain that complements
-[EmerSSL](EmerSSL_Introduction)'s passwordless logins, allowing website
+[EmerSSL](/en/blockchain-services/emerssl/emerssl-introduction.md)'s passwordless logins, allowing website
 profiles to be automatically populated. InfoCard has the ability to
 organize information in a hierarchical structure, which can be useful
 for quick content updates to all cards within companies or other
@@ -11,7 +11,7 @@ organizations.
 InfoCard is a kind of *"business card system on the blockchain"* that
 contains information about its owner, such as email address, phone
 number, date of birth and so on. InfoCard can be used on sites with
-[EmerSSL](EmerSSL_Introduction) authorization to automatically populate
+[EmerSSL](/en/blockchain-services/emerssl/emerssl-introduction.md) authorization to automatically populate
 account details, This means that rather than entering personal details
 every time you create a new online account, you can provide your
 InfoCard virtual business card to fill in the data.
@@ -19,8 +19,8 @@ InfoCard virtual business card to fill in the data.
 Creating an InfoCard
 --------------------
 
-1. [Download](https://pool.emercoin.com/emcssl) the necessary scripts (or
-see <https://github.com/emercoin/emcssl> for the latest development
+1. <a target="_blank" rel="nofollow" href="https://pool.emercoin.com/emcssl">Download</a> the necessary scripts (or
+see <a target="_blank" rel="nofollow" href="https://github.com/emercoin/emcssl">https://github.com/emercoin/emcssl</a> for the latest development
 release).
 
 2. Next, rename the file in infocard\_example.info to
@@ -61,7 +61,9 @@ $ ./info_crypt.sh infocard_<your_login_name>.info
 
 In Windows, run by double-clicking the file `info_crypt.bat` and enter the InfoCard name:
 
+<dev class="boxOverflow">
 <img src="/images/Infocard0.png" alt="info_crypt.bat">
+</dev>
 
 If all goes well, the output will contain a message like this:
 ```text
@@ -82,8 +84,10 @@ contents of the file *.ze, which should be in the scripts folder. The
 contents of the file will look like gibberish - and should, this is
 normal. The **New address** field should be left blank.
 
+<dev class="boxOverflow">
 <img src="/images/Infocard1.png" alt="Wallet Appearance">
+</dev>
 
 Click **submit** and you're done!
 
-5. Now, return to the [EmerSSL Guide](EmerSSL_Guide).
+5. Now, return to the [EmerSSL Guide](/en/blockchain-services/emerssl/emerssl-guide.md).
