@@ -1,7 +1,9 @@
-name: Blockchain Services
+name: Blockchain Services,
+sort: 300
 files:
    introduction-to-emercoin-services: {
       name: Introduction to Emercoin Services,
+      sort: 050,
       meta: {
         title: Introduction to Emercoin Services - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -11,6 +13,7 @@ files:
     }
    emernvs: {
       name: EmerNVS,
+      sort: 100,
       meta: {
         title: EmerNVS - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -20,6 +23,7 @@ files:
     }
    emerssh: {
       name: EmerSSH,
+      sort: 150,
       meta: {
         title: EmerSSH - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -29,6 +33,7 @@ files:
     }
    emerlnx: {
       name: EmerLNX,
+      sort: 350,
       meta: {
         title: EmerLNX - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -38,6 +43,7 @@ files:
     }
    emermagnet: {
       name: EmerMAGNET,
+      sort: 400,
       meta: {
         title: EmerMAGNET - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -47,6 +53,7 @@ files:
     }
    enumer: {
       name: ENUMER,
+      sort: 450,
       meta: {
         title: ENUMER - Emercoin Community Documentation,
         description: Emercoin Community Documentation,

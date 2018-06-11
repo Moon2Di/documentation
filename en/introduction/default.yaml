@@ -1,7 +1,9 @@
-name: Introduction
+name: Introduction,
+sort: 100
 files:
    the-emc-currency: {
       name: The EMC Currency,
+      sort: 050,
       meta: {
         title: The EMC Currency - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -11,24 +13,28 @@ files:
     }
    specifications: {
       name: Emercoin Specifications,
+      sort: 100,
       meta: {
         description: lorem ipsum
       }
     }
    technology-tree: {
       name: Emercoin Tech Tree,
+      sort: 150,
       meta: {
         description: lorem ipsum
       }
     }
    security-principles: {
       name: Emercoin Security Principles,
+      sort: 200,
       meta: {
         description: lorem ipsum
       }
     }
    roadmap-&-achievements: {
       name: Roadmap and Achievements,
+      sort: 250,
       meta: {
         description: lorem ipsum
       }

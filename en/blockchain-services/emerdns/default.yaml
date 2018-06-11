@@ -1,7 +1,9 @@
-name: EmerDNS
+name: EmerDNS,
+sort: 250
 files:
    emerdns-introduction: {
       name: EmerDNS Introduction,
+      sort: 050,
       meta: {
         title: EmerDNS Introduction - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -11,6 +13,7 @@ files:
     }
    i2p-domain-name-registration-based-on-blockchain: {
       name: I2P Domain Name Registration based on blockchain,
+      sort: 100,
       meta: {
         title: I2P Domain Name Registration based on blockchain - Emercoin Community Documentation,
         description: Emercoin Community Documentation,

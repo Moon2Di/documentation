@@ -1,7 +1,9 @@
-name: Mobile Wallets
+name: Mobile Wallets,
+sort: 050
 files:
    emercoin-sw: {
       name: Emercoin SW,
+      sort: 050,
       meta: {
         title: Emercoin SW - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -11,6 +13,7 @@ files:
     }
    emercoin-one: {
       name: Emercoin One,
+      sort: 100,
       meta: {
         title: Emercoin One - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
@@ -20,6 +23,7 @@ files:
     }
    emercoin-basic: {
       name: Emercoin Basic,
+      sort: 150,
       meta: {
         title: Emercoin Basic - Emercoin Community Documentation,
         description: Emercoin Community Documentation,
