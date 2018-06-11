@@ -2,7 +2,7 @@
 
 # Emercoin Community Documentation Project
 
-This repository contains the pages that generate the Emercoin Community Documentation found at <https://emercoin.com/en/documentation/>.
+This repository contains the pages that generate the Emercoin Community Documentation found at <https://emercoin.com/documentation/>.
 
 <!--
 ## Community additions are welcome!
