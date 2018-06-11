@@ -5,7 +5,7 @@ Introduction
 
 EMCLNX is a peer-to-peer text-based advertisement link exchange network
 based on a per-click payment model. EMCLNX operates under the **"lnx"**
-service abbreviation in the [Emercoin NVS](Emercoin_NVS).
+service abbreviation in the [Emercoin NVS](/en/blockchain-services/emernvs.md).
 
 > Unfortunately the EMCLNX project is temporarily frozen until it can be
 > further developed.
@@ -37,9 +37,9 @@ sending visitors to other sites.
 
 EMCLNX runs on the Emercoin cryptocurrency and uses it in two ways:
 
--   It uses Emercoin ([EMC](../Introduction/The_EMC_Currency) as the payment unit for
+-   It uses Emercoin ([EMC](/en/introduction/the-emc-currency.md) as the payment unit for
     pay-per-click actions.
--   It uses the [Emercoin NVS](Emercoin_NVS) as distributed
+-   It uses the [Emercoin NVS](/en/blockchain-services/emernvs.md) as distributed
     storage for advertising contracts.
 
 Installation
@@ -51,17 +51,16 @@ Installation
     this running.
 
 2.  You need to [install the Emercoin wallet
-    daemon](../Install_Software/Core_Wallets/CLI_daemon) on your web server.
+    daemon](/en/install-software/core-wallets/cli-daemon.md) on your web server.
 
-EMCLNX uses the [emercoin API](../Emercoin_API)
+EMCLNX uses the [emercoin API](/en/emercoin-api.md)
 JSONRPC interface, so ensure you have set suitable parameters related to
 RPC access in your daemon's
-[emercoin.conf](../Running_Emercoin/emercoin.conf) file, namely:
+[emercoin.conf](/en/running-emercoin/emercoin-conf.md) file, namely:
 **rpcuser**, **rpcpassword**, **rpcport**, and **rpcallowip**.
 
 After starting the daemon, download and unzip the EMCLNX archive from
-the [EMCLNX github
-repository](https://github.com/emercoin/emclnx/releases/latest).
+the <a target="_blank" rel="nofollow" href="https://github.com/emercoin/emclnx/releases/latest">EMCLNX github repository</a>.
 
 After unzip, there will be two subdirectories:
 
@@ -138,13 +137,13 @@ link. Click it... and you will earn a small amount of Emercoin!
 behavior, and Buyers will ban you!**
 
 Note: It's a good idea to run **./fetch_contracts.php** daily (or even
-hourly) with [crontab](https://en.wikipedia.org/wiki/Crontab), to
+hourly) with <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Crontab">crontab</a>, to
 automatically import new contracts.
 
 ### Installation for Buyer
 
 To use EMCLNX as a **Buyer**, you will need to deposit some
-[EMC](../Introduction/The_EMC_Currency) into your emercoind wallet - the system will use
+[EMC](/en/introduction/the-emc-currency.md) into your emercoind wallet - the system will use
 these funds to pay **Hosts** for the **Visitors** who are referred to
 you.
 
@@ -156,25 +155,24 @@ two independent wallets - one for payment, another for contract
 management.
 
 1. Generate an EMC wallet address, and deposit this address into the
-**TXT** field of your domain name's [DNS
-record](https://en.wikipedia.org/wiki/DNS_record), in the following
+**TXT** field of your domain name's <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/DNS_record">DNS record</a>, in the following
 format:
 
         emclnx=<emc_address>
 
-    For example, see [dig](https://en.wikipedia.org/wiki/Dig_(command))
+    For example, see <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Dig_(command)">dig</a>
 output for domain emercoin.com:
 
         $ dig emercoin.com TXT | grep emclnx
         emercoin.com.       299 IN  TXT "emclnx=EasxHoQ3xs33nZZoLWDnKMRDsafF9ZdqQq"
 
-    The domain can be a regular ICANN or [EmerDNS](./EmerDNS/EmerDNS_Introduction) domain.
+    The domain can be a regular ICANN or [EmerDNS](/en/blockchain-services/emerdns/emerdns-introduction.md) domain.
 
     Note: It is OK if multiple Hosts or contracts use the same EMC address.
 
 2. Select some unique name for your contract, for example:
 **MyFirstContract**. You will need to check if this name is available by
-using the [name\_show](../Emercoin_API) command
+using the [name\_show](/en/emercoin-api.md) command
 in the Emercoin wallet. You can do this in the GUI wallet's debug window
 by entering the command:
 
@@ -185,7 +183,7 @@ is OK (the name is not taken yet).
 
 3. Generate a signature for your contract using the EMC address you
 generated above, using the
-[signmessage](../Emercoin_API) command. e.g:
+[signmessage](/en/emercoin-api.md) command. e.g:
 
         signmessage EdvJ7b7zPL6gj5f8VNfX6zmVcftb35sKX2 MyFirstContract
 
@@ -222,7 +220,7 @@ site, and need ads for many languages, generate separate contracts for
 ads in each language.
 
     **COUNTRY** : Target
-[country](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2). This is an
+<a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">country</a>. This is an
 optional field. If used, your ads will be displayed in specified
 countries only. If omitted there are no country limits.
 
