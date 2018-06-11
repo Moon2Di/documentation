@@ -2,7 +2,7 @@
 
 By holding EMC in your wallet, you can assist the Emercoin network to
 verify/broadcast transactions by generating new blocks with Emercoin's
-[Proof-of-Stake](http://en.wikipedia.org/wiki/Proof-of-stake) (PoS)
+<a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Proof-of-stake">Proof-of-Stake</a> (PoS)
 system.
 
 When PoS blocks are generated, the wallet that generated the block is
@@ -10,14 +10,14 @@ rewarded with additional EMC. Earnings from PoS are at the rate of
 approx. 6% per year. The process of generating blocks with Proof-of-Stake is loosely referred to as *minting*.
 
 *EMC coin age maturity is 30 days. This means, the
-[UTXO](https://bitcoin.org/en/glossary/unspent-transaction-output) (Unspent Transaction Output) that
+<a target="_blank" rel="nofollow" href="https://bitcoin.org/en/glossary/unspent-transaction-output">UTXO</a> (Unspent Transaction Output) that
 added the EMC to your balance must sit unspent for 30 days before it
 becomes eligible to generate a PoS block.*
 
 Proof-of-Stake guide
 --------------------
 This guide covers how to mint
-[Proof-of-Stake](http://en.wikipedia.org/wiki/Proof-of-stake) (PoS)
+<a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Proof-of-stake">Proof-of-Stake</a> (PoS)
 blocks with an encrypted wallet on your own computer using the <b>Emercoin
 GUI</b>. Note that it is also possible to mint
 PoS blocks on a headless server with the <b>Emercoin
@@ -86,7 +86,7 @@ new coins added to your balance.
 
 You could unlock your wallet for minting for a few days each month,
 however in practice it's unlikely all your transaction
-[UTXO](https://bitcoin.org/en/glossary/unspent-transaction-output)'s are
+<a target="_blank" rel="nofollow" href="https://bitcoin.org/en/glossary/unspent-transaction-output">UTXO</a>'s are
 ready to stake at the same time. Therefore in the long term it is more
 pratical to leave the wallet running 24/7 to increase your chances of
 minting PoS blocks and to support the Emercoin network.
@@ -94,15 +94,15 @@ minting PoS blocks and to support the Emercoin network.
 ### Checking your PoS statistics
 
 -   There is PoS calculator provided at
-    <https://emercoin.mintr.org/poscal>.
+    <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org/poscal">https://emercoin.mintr.org/poscal</a>.
 
 -   Additional statistics particular to your EMC address are also
     available:
 
     -   Visit the Emercoin blockchain explorer at
-        <https://emercoin.mintr.org> and search for your EMC address(es)
+        <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org">https://emercoin.mintr.org</a> and search for your EMC address(es)
         that are currently staking.
-    -   Run the staking calculator tool for your EMC address on <https://emercoin.mintr.org> (press the purple "leaf" icon and you will
+    -   Run the staking calculator tool for your EMC address on <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org">https://emercoin.mintr.org</a> (press the purple "leaf" icon and you will
         see the results on your minting %, coin age, and several other variables).
 
 ### Preventing your wallet from staking
@@ -110,7 +110,7 @@ minting PoS blocks and to support the Emercoin network.
 While coins are staking they will not be accessible to spend. If you
 need to prevent an amount of EMC from staking, simply set
 **reservebalance** in your wallet's
-[emercoin.conf](../Running_Emercoin/emercoin.conf) file. e.g:
+[emercoin.conf](/en/running-emercoin/emercoin-conf.md) file. e.g:
 
     reservebalance=1000
 
@@ -132,20 +132,18 @@ e.g. to unlock for minting for 604800 seconds (1 week):
 ### Troubleshooting tips
 
 -   Check your expected PoS rewards at
-    <https://emercoin.mintr.org/poscal>
+    <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org/poscal">https://emercoin.mintr.org/poscal</a>
 -   Check your minting statistics for your EMC address (see above).
 -   Ensure the EMC
-    [UTXO](https://bitcoin.org/en/glossary/unspent-transaction-output)
+    <a target="_blank" rel="nofollow" href="https://bitcoin.org/en/glossary/unspent-transaction-output">UTXO</a>
     has been left unspent in your wallet for at least 30 days.
 -   Ensure you have not set **reservebalance** in your wallet's
-    [emercoin.conf](../Running_Emercoin/emercoin.conf) file.
+    [emercoin.conf](/en/running-emercoin/emercoin-conf.md) file.
 -   See
-    <https://www.reddit.com/r/EmerCoin/comments/6xsmfw/pos_minting_question/>
+    <a target="_blank" rel="nofollow" href="https://www.reddit.com/r/EmerCoin/comments/6xsmfw/pos_minting_question/">https://www.reddit.com/r/EmerCoin/comments/6xsmfw/pos_minting_question/</a>
 
 More info
 ---------
 
-1.  See the following article on medium: [Money makes money: How to earn
-    Emercoin by taking advantage of the PoS
-    algorithm](https://medium.com/@emer.tech/money-makes-money-e23087c6dc7d?source=rss-d2f48d13ac49------2).
+1.  See the following article on medium: <a target="_blank" rel="nofollow" href="https://medium.com/@emer.tech/money-makes-money-e23087c6dc7d?source=rss-d2f48d13ac49------2">Money makes money: How to earn Emercoin by taking advantage of the PoS algorithm</a>.
 
