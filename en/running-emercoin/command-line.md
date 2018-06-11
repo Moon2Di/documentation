@@ -29,4 +29,4 @@ One important argument not listed in the help is _reservebalance_:
 ```text
   -reservebalance=<number>  Reserves a given amount of coins in your wallet, excluding them from participating in Proof-of-Stake minting.
 ```
-_Note: Not all commands are listed in the help at the time of writing, and you should check the help in your version, in case they have been updated. Emercoin is originally derived from the Bitcoin project, so you may find additional configuration arguments at <https://en.bitcoin.it/wiki/Running_Bitcoin></i>_
+_Note: Not all commands are listed in the help at the time of writing, and you should check the help in your version, in case they have been updated. Emercoin is originally derived from the Bitcoin project, so you may find additional configuration arguments at <a target="_blank" rel="nofollow" href="https://en.bitcoin.it/wiki/Running_Bitcoin">https://en.bitcoin.it/wiki/Running_Bitcoin</a></i>_
