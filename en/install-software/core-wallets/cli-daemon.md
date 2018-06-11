@@ -1,4 +1,4 @@
-## 1Emercoin Command Line Daemon (headless)
+## Emercoin Command Line Daemon (headless)
 
 <div style="boxOverflow"><img src="/images/Wallet-headless.png" alt="Emercoin on the command line" width="512"></div><br>
 
