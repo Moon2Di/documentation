@@ -1,4 +1,6 @@
+<div class="boxOverflow">
 <img width="200" src="/images/Logo_2017.png" alt="Emercoin logo" >
+</div>
 <br>
 
 Emercoin is a <a target="_blank" rel="nofollow" href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a> platform supporting a wide range of distributed trusted services. Distinctive features include high reliability, robustness and 3-in-one hybrid mining (PoW+MergedMining+PoS). Currently, the Emercoin platform already runs the network security services
