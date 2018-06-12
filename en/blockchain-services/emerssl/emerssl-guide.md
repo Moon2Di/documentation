@@ -54,7 +54,7 @@ Created EmerSSL Certificate template: ceabec4544e2ab86.tpl
 
    In Windows, run **gen_crt.bat**
 
-<dev class="boxOverflow">
+<div class="boxOverflow">
    <img src="/images/EmerSSL_2.png" alt="gen_crt.bat">
 </div>
 
