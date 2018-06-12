@@ -1,4 +1,6 @@
-<div style="boxOverflow"><img src="/images/EmerSSL-cryptography.jpg" alt="EmerSSL" width="256"></div>
+<div style="boxOverflow">
+<img src="/images/EmerSSL-cryptography.jpg" alt="EmerSSL" width="256">
+</div>
 <br>
 
 # EmerSSL Guide
@@ -28,7 +30,7 @@ $ ./gen_tpl.sh
    If in Windows, run **gen_tpl.bat**.
 
 <div class="boxOverflow">
-   <img src="/images/EmerSSL_1.png" alt="gen_tpl.bat">
+<img src="/images/EmerSSL_1.png" alt="gen_tpl.bat">
 </div>	
 
 The program prompts you to enter the data to be used for the certificate:
@@ -36,7 +38,7 @@ The program prompts you to enter the data to be used for the certificate:
 -   **Email** - your mail, leave this empty.
 -   **UID** - a reference to additional information about the owner of
     the certificate, such as InfoCard. If you created [InfoCard](/en/blockchain-services/emerssl/emerssl-infocard.md), enter the UID data (obtained when generating the *.ze file):
-- info: e120319a479f4ac4: ac7c3821f171b6a8bd8cd33d829f5b<br><br>
+-   info: e120319a479f4ac4: ac7c3821f171b6a8bd8cd33d829f5b<br><br>
 
 If all goes well, you will see the following entry:
 
@@ -58,11 +60,12 @@ Created EmerSSL Certificate template: ceabec4544e2ab86.tpl
 
    The script asks you to enter a password to import the certificate into the browser. You must enter a password and confirm it. Then you will see the message:
 
- ```text
+```text
 Please, deposit into Emercoin NVS pair:
 Key: ssl:ceabec4544e2ab86
 Value: sha256=2c2de184a316be17d8170312bca336a22bfda97d10f56d4127ca31d0253d8097 
 ```
+
    Open the wallet tab **Manage Names** and copy Key into the **Name** field and Value in the **Value** field, and click Submit. The **New address** field should be left blank.
 
 <div class="boxOverflow">
@@ -76,6 +79,7 @@ Value: sha256=2c2de184a316be17d8170312bca336a22bfda97d10f56d4127ca31d0253d8097
 
 6. Verifying the certificate: You can check the operation of the certificate in the Emercoin pool. To
 get started, click <a target="_blank" rel="nofollow" href="https://pool.emercoin.com/emcssl/InfoCard.php">here</a>. If you see something like this, it means everything is in order:
+
 ```text
 pid=30275
  main: SSL-certificate presented
@@ -88,6 +92,7 @@ InfoCard:
 
 EmerSSL_validate() RETURNED: $EX4WHi2ABUkinKX6jACUxanhMqDYbbcyEj
 ```
+
    Now go to the <a target="_blank" rel="nofollow" href="https://pool.emercoin.com/register">registration page</a> of
 the pool and click **Register with EmerSSL.** The system should tell us
 that the registration was successful. Then click **Login with EmerSSL**
