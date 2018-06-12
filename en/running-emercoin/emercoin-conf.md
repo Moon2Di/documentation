@@ -13,6 +13,7 @@ Windows Vista, 7, 10	|`C:\Users\<username>\AppData\Roaming\Emercoin\emercoin.con
 Linux                	|`/home/<username>/.emercoin/emercoin.conf`
 Mac OSX                	|`/Users/<username>/Library/Application Support/Emercoin/emercoin.conf`
 
+
 _Note: When installing [EmerWEB](/en/install-software/core-wallets/emerweb-wallet.md), the location is `/var/lib/emc/.emercoin/emercoin.conf`._
 
 ### Example emercoin.conf
