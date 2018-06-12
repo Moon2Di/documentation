@@ -37,5 +37,4 @@ Visit the following EmerSSL resources:
 -   [EmerSSL Guide](/en/blockchain-services/emerssl/emerssl-guide.md)
 -   <a target="_blank" rel="nofollow" href="https://pool.emercoin.com/emcssl/">EmerSSL toolkit page</a>
 -   <a target="_blank" rel="nofollow" href="https://www.drupal.org/project/emc_ssl">EmerSSL and Infocard module for Drupal</a>
--   <a target="_blank" rel="nofollow" href="https://emcssl.org">EmerSSL certificate generator</a> (Russian)
 -   <a target="_blank" rel="nofollow" href="https://github.com/emercoin/emcssl">EmerSSL on Github</a>
