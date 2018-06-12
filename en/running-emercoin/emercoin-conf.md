@@ -13,11 +13,7 @@ Windows Vista, 7, 10	|`C:\Users\<username>\AppData\Roaming\Emercoin\emercoin.con
 Linux                	|`/home/<username>/.emercoin/emercoin.conf`
 Mac OSX                	|`/Users/<username>/Library/Application Support/Emercoin/emercoin.conf`
 
-<i>
-  
-  Note: When installing [EmerWEB](/en/install-software/core-wallets/emerweb-wallet.md), the location is `/var/lib/emc/.emercoin/emercoin.conf`.
-  
-</i>
+_Note: When installing [EmerWEB](/en/install-software/core-wallets/emerweb-wallet.md), the location is `/var/lib/emc/.emercoin/emercoin.conf`._
 
 ### Example emercoin.conf
 ```text
@@ -36,8 +32,7 @@ rpcsslcertificatechainfile=/etc/ssl/emc/emercoin.crt
 rpcsslprivatekeyfile=/etc/ssl/emc/emercoin.key
 rpcsslciphers=HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!SSLv2
 ```
-<i>
-  Note: you may find additional .conf file examples at <a target="_blank" rel="nofollow" href="https://en.bitcoin.it/wiki/Running_Bitcoin">https://en.bitcoin.it/wiki/Running_Bitcoin</a>
-</i>
+
+_Note: you may find additional .conf file examples at <a target="_blank" rel="nofollow" href="https://en.bitcoin.it/wiki/Running_Bitcoin">https://en.bitcoin.it/wiki/Running_Bitcoin</a>_
 
 
