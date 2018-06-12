@@ -34,11 +34,11 @@ log in without a password to a website that supports it. The guide assumes you a
    </div>	
 
    The program prompts you to enter the data to be used for the certificate:
--   **CommonName** - login (username). The only required parameter.
--   **Email** - your mail, leave this empty.
--   **UID** - a reference to additional information about the owner of
+   -   **CommonName** - login (username). The only required parameter.
+   -   **Email** - your mail, leave this empty.
+   -   **UID** - a reference to additional information about the owner of
     the certificate, such as InfoCard. If you created [InfoCard](/en/blockchain-services/emerssl/emerssl-infocard.md), enter the UID         data (obtained when generating the *.ze file):
--   info: e120319a479f4ac4: ac7c3821f171b6a8bd8cd33d829f5b<br><br>
+   -   info: e120319a479f4ac4: ac7c3821f171b6a8bd8cd33d829f5b<br><br>
 
    If all goes well, you will see the following entry:
 
