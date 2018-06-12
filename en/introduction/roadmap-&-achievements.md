@@ -4,6 +4,7 @@ Important Emercoin milestones:
 
 2018 Achievements
 -----------------
+
 <div class="boxOverflow">
 <table>
 <thead>
@@ -30,6 +31,7 @@ Important Emercoin milestones:
 
 2017 Achievements
 -----------------
+
 <div class="boxOverflow">
 <table>
 <thead>
@@ -65,6 +67,7 @@ Important Emercoin milestones:
 
 2016 Achievements
 -----------------
+
 <div class="boxOverflow">
 <table>
 <thead>
@@ -86,6 +89,7 @@ Important Emercoin milestones:
 
 2015 Achievements
 -----------------
+
 <div class="boxOverflow">
 <table>
 <thead>
@@ -112,6 +116,7 @@ Important Emercoin milestones:
 
 2014 Achievements
 -----------------
+
 <div class="boxOverflow">
 <table>
 <thead>
@@ -133,6 +138,7 @@ Important Emercoin milestones:
 
 2013 Achievements
 -----------------
+
 <div class="boxOverflow">
 <table>
 <thead>
