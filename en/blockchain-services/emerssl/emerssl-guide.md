@@ -100,4 +100,4 @@ log in without a password to a website that supports it. The guide assumes you a
 
    Congratulations on using EmerSSL to log in to a website without entering a password!
 
-   If you have questions, feel free to ask.
+If you have questions, feel free to ask.
