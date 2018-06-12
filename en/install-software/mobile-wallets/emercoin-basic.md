@@ -1,6 +1,9 @@
 # Emercoin Basic for iOS
 
-<div style="boxOverflow"><img src="/images/EmercoinBasicAppstore.png" alt="Emercoin Basic on the Appstore" width="512"></div><br>
+<div style="boxOverflow">
+  <img src="/images/EmercoinBasicAppstore.png" alt="Emercoin Basic on the Appstore" width="512">
+</div>
+<br>
 
 <strong>Emercoin Basic</strong> is a remote controller app for iOS that controls your own install of Emercoin Core. To use Emercoin Basic you will need to be running Emercoin Core on your own server (e.g. [EmerWEB wallet](/en/install-software/core-wallets/emerweb-wallet.md)).
 
