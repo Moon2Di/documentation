@@ -32,6 +32,7 @@ rpcsslcertificatechainfile=/etc/ssl/emc/emercoin.crt
 rpcsslprivatekeyfile=/etc/ssl/emc/emercoin.key
 rpcsslciphers=HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!SSLv2
 ```
-_Note: you may find additional .conf file examples at <a target="_blank" rel="nofollow" href="https://en.bitcoin.it/wiki/Running_Bitcoin">https://en.bitcoin.it/wiki/Running_Bitcoin</a>_
+<i>Note: you may find additional .conf file examples at <a target="_blank" rel="nofollow" href="https://en.bitcoin.it/wiki/Running_Bitcoin">https://en.bitcoin.it/wiki/Running_Bitcoin</a>
+</i>
 
 
