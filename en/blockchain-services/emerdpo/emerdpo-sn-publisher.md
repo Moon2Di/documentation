@@ -10,24 +10,24 @@ Preparation of a CSV serial number table
 ----------------------------------------
 
 1. Open a new spreadsheet (Microsoft Excel, Google Docs, Libre Office
-Calc).
+   Calc).
 
 2. In the first box (A1) enter **"SN"**.
 
 3. Other boxes of the first line may have any name, but if you need to
-protect the content of any column with a signature, it is required to
-place an **"F-"** in front of its name (for example, F-Model, F-Master).
+   protect the content of any column with a signature, it is required to
+   place an **"F-"** in front of its name (for example, F-Model, F-Master).
 
 4. In the next lines, enter the data for each serial number. See the
-following image for an example:
+   following image for an example:
 
-<div class="boxOverflow">
-<img src="/images/Sn-publisher-image00.png" title="fig:Sn-publisher-image00.png">
-</div>
+   <div class="boxOverflow">
+   <img src="/images/Sn-publisher-image00.png" title="fig:Sn-publisher-image00.png">
+   </div>
 
 5. When the table is filled in, save (export) it in .csv file format. This
-table will serve as the template for the reservation and signing of
-serial numbers.
+   table will serve as the template for the reservation and signing of
+   serial numbers.
 
 Preparation of the Emercoin wallet to work with SN-Publisher
 ------------------------------------------------------------
