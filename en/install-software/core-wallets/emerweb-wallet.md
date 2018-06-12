@@ -1,7 +1,11 @@
 ## EmerWEB wallet
 
-<div style="style=”width:50%”"><img src="/images/EmerWEB.png" alt="EmerWEB is a web-based wallet running on your own server." width="384"></div><div style="style=”width:50%”"><img src="/images/EmerWEB_UI.png" alt="EmerWEB has a full user interface." width="384"></div>
-
+<div style="style=”width:50%”">
+ <img src="/images/EmerWEB.png" alt="EmerWEB is a web-based wallet running on your own server." width="384">
+</div>
+<div style="style=”width:50%”">
+ <img src="/images/EmerWEB_UI.png" alt="EmerWEB has a full user interface." width="384">
+</div>
 <br>
 
 EmerWEB is an emercoin daemon, EmerSSH installation, and web wallet configured for fast deployment on the Microsoft Azure platform, or hosted on your own server.
@@ -9,7 +13,9 @@ EmerWEB is an emercoin daemon, EmerSSH installation, and web wallet configured f
 ### Fast Deploy EmerWEB on Microsoft Azure Marketplace
 
 For fast deployment on Azure, click the following button.
-<div><a target="_blank" rel="nofollow" href="https://azure.microsoft.com/marketplace/partners/emercoin/emercoin/"><img src="/images/Deployaz.png" alt="Deploy on Microsoft Azure."></a></div>
+<div>
+ <a target="_blank" rel="nofollow" href="https://azure.microsoft.com/marketplace/partners/emercoin/emercoin/"><img src="/images/Deployaz.png" alt="Deploy on Microsoft Azure."></a>
+</div>
 
 <br>
 
