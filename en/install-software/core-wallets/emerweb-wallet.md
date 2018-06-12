@@ -1,10 +1,11 @@
 ## EmerWEB wallet
-
+<div class="boxOverflow">
 <div style="style=”width:50%”">
  <img src="/images/EmerWEB.png" alt="EmerWEB is a web-based wallet running on your own server." width="384">
 </div>
 <div style="style=”width:50%”">
  <img src="/images/EmerWEB_UI.png" alt="EmerWEB has a full user interface." width="384">
+</div>
 </div>
 <br>
 
