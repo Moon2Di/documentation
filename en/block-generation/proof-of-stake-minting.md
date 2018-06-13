@@ -152,7 +152,9 @@ e.g. to unlock for minting for 604800 seconds (1 week):
 -   Ensure you have not set **reservebalance** in your wallet's
     [emercoin.conf](/en/running-emercoin/emercoin-conf.md) file.
 -   See
+    <div class="boxOverflow">
     <a target="_blank" rel="nofollow" href="https://www.reddit.com/r/EmerCoin/comments/6xsmfw/pos_minting_question/">https://www.reddit.com/r/EmerCoin/comments/6xsmfw/pos_minting_question/</a>
+    </div>
 
 More info
 ---------
