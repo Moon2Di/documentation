@@ -96,9 +96,13 @@ Promotional Images
 Font packages that include the Emercoin logo
 --------------------------------------------
 
--   <a target="_blank" rel="nofollow" href="https://labs.allienworks.net/icons/cryptocoins/">
+
+-   <div class="boxOverflow">
+    <a target="_blank" rel="nofollow" href="https://labs.allienworks.net/icons/cryptocoins/">
     https://labs.allienworks.net/icons/cryptocoins/
     </a>
+    <div>
+
 
 <hr>
 
