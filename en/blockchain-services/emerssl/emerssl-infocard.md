@@ -60,9 +60,9 @@ Creating an InfoCard
 
    In Windows, run by double-clicking the file `info_crypt.bat` and enter the InfoCard name:
 
-   <dev class="boxOverflow">
+   <div class="boxOverflow">
    <img src="/images/Infocard0.png" alt="info_crypt.bat">
-   </dev>
+   </div>
 
    If all goes well, the output will contain a message like this:
    ```text
@@ -83,9 +83,9 @@ Creating an InfoCard
    contents of the file will look like gibberish - and should, this is
    normal. The **New address** field should be left blank.
 
-   <dev class="boxOverflow">
+   <div class="boxOverflow">
    <img src="/images/Infocard1.png" alt="Wallet Appearance">
-   </dev>
+   </div>
 
    Click **submit** and you're done!
 
