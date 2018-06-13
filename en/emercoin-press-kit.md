@@ -3,25 +3,25 @@ Collected graphics for Emercoin articles and media:
 Emercoin Logo
 -------------
 
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Logo_2017.png" alt="" width="256">
 </div>
 
 Emercoin logo, square, transparent
 
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Logo_2017(purple).png" alt="" width="256">
 </div>
 
 Emercoin logo (purple), square, transparent
 
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Logo_2017_250x86.png" alt="" width="256">
 </div>
 
 Emercoin logo, transparent
 
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Logo_2017_250x86(purple).png" alt="" width="256">
 </div>
 
@@ -33,7 +33,7 @@ Emercoin logo (purple), transparent
 
 ### EmerSSL Logo
 
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EmerSSL_logo.png" alt="EmerSSL logo" width="256">
 </div>
 
@@ -46,49 +46,49 @@ EmerSSL logo
 Promotional Images
 ------------------
 
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EmerMan.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Emc-circuit.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Emc-circuit(purple).jpg" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EMC_Evolve_Planet.jpeg" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EMC_Evolve.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EMC_Evolve_Circles.jpg" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Life_on_Mars.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Astronaut's_Day.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Moonlanding.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Emc-motion.jpeg" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Emercoin_mm.jpg" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EMC-testnet.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EMC-DNS.png" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EMC_Services.jpeg" alt="" width="512">
 </div>
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/EmerSSH-digital-key.png" alt="" width="512">
 </div>
 
