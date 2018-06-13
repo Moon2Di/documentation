@@ -1,6 +1,6 @@
 # Emercoin Secure Wallet
 
-<div style="boxOverflow">
+<div class="boxOverflow">
     <img src="/images/EmercoinSW_Wallet.png" width="512" alt="Emercoin SW on Google Play">
 </div>
 <br>
