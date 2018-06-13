@@ -96,7 +96,9 @@ Promotional Images
 Font packages that include the Emercoin logo
 --------------------------------------------
 
--   <a target="_blank" rel="nofollow" href="https://labs.allienworks.net/icons/cryptocoins/">https://labs.allienworks.net/icons/cryptocoins/</a>
+-   <a target="_blank" rel="nofollow" href="https://labs.allienworks.net/icons/cryptocoins/">
+    https://labs.allienworks.net/icons/cryptocoins/
+    </a>
 
 <hr>
 
@@ -107,9 +109,13 @@ Interesting story about how Bitcoin was added to Unicode:
 -   <a target="_blank" rel="nofollow" href="http://www.righto.com/2016/10/inspired-by-hn-comment-four-half-star.html">
     http://www.righto.com/2016/10/inspired-by-hn-comment-four-half-star.html
     </a>
--   <a target="_blank" rel="nofollow" href="http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/">http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/</a>
+-   <a target="_blank" rel="nofollow" href="http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/">
+    http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/
+    </a>
 
 Unicode proposal for Bitcoin that was accepted:
 
--   <a target="_blank" rel="nofollow" href="http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf">http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf</a>
+-   <a target="_blank" rel="nofollow" href="http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf">
+    http://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf
+    </a>
 
