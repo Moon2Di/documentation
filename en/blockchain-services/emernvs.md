@@ -1,4 +1,6 @@
-<div style="boxOverflow"><img src="/images/NVS_logo.png" alt="NVS logo" width="256"></div>
+<div class="boxOverflow">
+	<img src="/images/NVS_logo.png" alt="NVS logo" width="256">
+</div>
 
 # The Emercoin NVS
 
@@ -70,7 +72,10 @@ recommend using the following supported service abbreviations:
 
 Managing NVS entries with the GUI
 -------------
-<div style="boxOverflow"><img src="/images/NVS_UI.jpg" alt="Emercoin's 'Manage Names' tab." width="756"></div>
+
+<div class="boxOverflow">
+	<img src="/images/NVS_UI.jpg" alt="Emercoin's 'Manage Names' tab." width="756">
+</div>
 <br>
 
 The "Manage Names" tab includes the following elements:
