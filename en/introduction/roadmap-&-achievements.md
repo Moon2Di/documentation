@@ -47,7 +47,7 @@ Important Emercoin milestones:
 <td>Complete!</td>
 <td>
   
-(see  [Emercoin SW](/en/install-software/mobile-wallets/emercoin-sw.md) )
+(see [Emercoin SW](/en/install-software/mobile-wallets/emercoin-sw.md))
   
 </td>
 </tr>
