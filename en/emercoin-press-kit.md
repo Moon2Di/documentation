@@ -55,9 +55,11 @@ Promotional Images
 <div class="boxOverflow">
   <img src="/images/Emc-circuit(purple).jpg" alt="" width="512">
 </div>
+<!--
 <div class="boxOverflow">
   <img src="/images/EMC_Evolve_Planet.jpeg" alt="" width="512">
 </div>
+-->
 <div class="boxOverflow">
   <img src="/images/EMC_Evolve.png" alt="" width="512">
 </div>
@@ -88,9 +90,11 @@ Promotional Images
 <div class="boxOverflow">
   <img src="/images/EMC_Services.jpeg" alt="" width="512">
 </div>
+<!--
 <div class="boxOverflow">
   <img src="/images/EmerSSH-digital-key.png" alt="" width="512">
 </div>
+-->
 
 
 Font packages that include the Emercoin logo
