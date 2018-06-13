@@ -119,11 +119,11 @@ Interesting story about how Bitcoin was added to Unicode:
     http://www.righto.com/2016/10/inspired-by-hn-comment-four-half-star.html
     </a>
     <div>
-    <div class="boxOverflow">
+    <!--<div class="boxOverflow">-->
 -   <a target="_blank" rel="nofollow" href="http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/">
     http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/
     </a>
-    <div>
+    <!--<div>-->
 
 Unicode proposal for Bitcoin that was accepted:
 
