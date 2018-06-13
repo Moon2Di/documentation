@@ -1,4 +1,6 @@
-<div style="boxOverflow"><img src="/images/Gui-debug-console.png" alt="The debug console in the emercoin-qt GUI" width="512"></div>
+<div class="boxOverflow">
+	<img src="/images/Gui-debug-console.png" alt="The debug console in the emercoin-qt GUI" width="512">
+</div>
 
 # Emercoin API
 
