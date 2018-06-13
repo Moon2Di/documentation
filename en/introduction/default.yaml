@@ -15,27 +15,39 @@ files:
       name: Emercoin Specifications,
       sort: 100,
       meta: {
-        description: lorem ipsum
+        title: Emercoin Specifications - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
       }
     }
    technology-tree: {
       name: Emercoin Tech Tree,
       sort: 150,
       meta: {
-        description: lorem ipsum
+        title: Emercoin Tech Tree - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
       }
     }
    security-principles: {
       name: Emercoin Security Principles,
       sort: 200,
       meta: {
-        description: lorem ipsum
+        title: Emercoin Security Principles - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
       }
     }
    roadmap-&-achievements: {
       name: Roadmap and Achievements,
       sort: 250,
       meta: {
-        description: lorem ipsum
+        title: Roadmap and Achievements - Emercoin Community Documentation,
+        description: Emercoin Community Documentation,
+        keywords: ,
+        author: Emercoin Community
       }
     }
