@@ -1,4 +1,6 @@
-<div style="boxOverflow"><img src="/images/ENUMER.png" alt="ENUMER image" width="356"></div>
+<div class="boxOverflow">
+    <img src="/images/ENUMER.png" alt="ENUMER image" width="356">
+</div>
 <br>
 
 ENUMER is a system for supporting <a target="_blank" rel="nofollow" href="http://www.voip-info.org/wiki/view/ENUM">ENUM telephone records</a> on Emercoin's
