@@ -111,10 +111,10 @@ minting PoS blocks and to support the Emercoin network.
 -   Additional statistics particular to your EMC address are also
     available:
 
-    -   Visit the Emercoin blockchain explorer at
+-   Visit the Emercoin blockchain explorer at
         <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org">https://emercoin.mintr.org</a> and search for your EMC address(es)
         that are currently staking.
-    -   Run the staking calculator tool for your EMC address on <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org">https://emercoin.mintr.org</a> (press the purple "leaf" icon and you will
+-   Run the staking calculator tool for your EMC address on <a target="_blank" rel="nofollow" href="https://emercoin.mintr.org">https://emercoin.mintr.org</a> (press the purple "leaf" icon and you will
         see the results on your minting %, coin age, and several other variables).
 
 ### Preventing your wallet from staking
