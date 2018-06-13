@@ -43,56 +43,56 @@ Follow these steps to mine PoS blocks using the GUI:
 1. **Encrypt your wallet:**
 
     To encrypt your wallet, choose 'Encrypt Wallet' from the Settings menu
-and choose a strong password that you won't forget.
+    and choose a strong password that you won't forget.
 
-<div class="boxOverflow">
-    <img src="/images/Pos1.png" title="fig:Pos1.png">
-</div>
+    <div class="boxOverflow">
+        <img src="/images/Pos1.png" title="fig:Pos1.png">
+    </div>
 
     After your wallet is encrypted, a locked padlock icon appears at the
-bottom of the window.
+    bottom of the window.
 
-<div class="boxOverflow">
-    <img src="/images/Pos2.png" title="fig:Pos2.png">
-</div>
+    <div class="boxOverflow">
+        <img src="/images/Pos2.png" title="fig:Pos2.png">
+    </div>
 
 2. **Unlock your wallet in Mint-only mode:**
 
     Click the padlock icon at the bottom of the window, check the 'Mint only
-mode' checkbox and enter your password.
+    mode' checkbox and enter your password.
 
-<div class="boxOverflow">
-    <img src="/images/Pos3.png" title="fig:Pos3.png">
-</div>
+    <div class="boxOverflow">
+        <img src="/images/Pos3.png" title="fig:Pos3.png">
+    </div>
 
     When the wallet is unlocked, the padlock icon at the bottom of the
-window will appear unlocked.
+    window will appear unlocked.
 
-<div class="boxOverflow">
-    <img src="/images/Pos4.png" title="fig:Pos4.png">
-</div>
+    <div class="boxOverflow">
+        <img src="/images/Pos4.png" title="fig:Pos4.png">
+    </div>
 
     While the wallet is in 'Mint only mode', you can safely leave it open
-without anyone being able to send funds out.
+    without anyone being able to send funds out.
 
 3. **Leave your wallet unlocked and running in Mint-only mode:**
 
     Coins only have a chance to stake while your wallet is open, and they
-sit untouched in the EMC address for 30 days.
+    sit untouched in the EMC address for 30 days.
 
     If you mint a PoS block, you will see your 'Stake' balance change for 32
-blocks until the PoS transaction confirms.
+    blocks until the PoS transaction confirms.
 
-<div class="boxOverflow">
-    <img src="/images/Pos5.png" title="fig:Pos5.png">
-</div>
+    <div class="boxOverflow">
+        <img src="/images/Pos5.png" title="fig:Pos5.png">
+    </div>
 
 4. When coins have staked successfully, you will see new transaction and
-new coins added to your balance.
+    new coins added to your balance.
 
-<div class="boxOverflow">
-    <img src="/images/Pos6.png" title="fig:Pos6.png">
-</div>
+    <div class="boxOverflow">
+        <img src="/images/Pos6.png" title="fig:Pos6.png">
+    </div>
 
 ### How often to run the client for staking?
 
