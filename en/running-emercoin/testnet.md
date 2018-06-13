@@ -1,6 +1,8 @@
 # The Emercoin test network
 
-<div style="boxOverflow"><img src="/images/EMC-testnet.png" alt="Emercoin testnet" width="256"></div>
+<div class="boxOverflow">
+<img src="/images/EMC-testnet.png" alt="Emercoin testnet" width="256">
+</div>
 <br>
 The Emercoin testnet is a separate network used for testing upcoming
 releases and new features.

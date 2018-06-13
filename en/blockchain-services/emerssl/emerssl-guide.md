@@ -1,4 +1,4 @@
-<div style="boxOverflow">
+<div class="boxOverflow">
 <img src="/images/EmerSSL-cryptography.jpg" alt="EmerSSL" width="256">
 </div>
 <br>

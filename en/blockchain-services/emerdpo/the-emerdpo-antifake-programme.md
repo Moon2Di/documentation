@@ -1,4 +1,6 @@
-<div style="boxOverflow"><img src="/images/EmerDPO_1.png" alt="EmerDPO" width="256"></div>
+<div class="boxOverflow">
+<img src="/images/EmerDPO_1.png" alt="EmerDPO" width="256">
+</div>
 
 # The EMC Antifake programme
 
