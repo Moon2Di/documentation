@@ -48,6 +48,7 @@ Important Emercoin milestones:
 <td>
   
 (see  [Emercoin SW](/en/install-software/mobile-wallets/emercoin-sw.md) )
+[Emercoin SW](/en/install-software/mobile-wallets/emercoin-sw.md)
   
 </td>
 </tr>
