@@ -55,6 +55,8 @@ Service abbreviations
 While you are free to create your own services using Emercoin's NVS, we
 recommend using the following supported service abbreviations:
 
+<div class="boxOverflow">
+	
   Service abbreviation  | Service description                                                    | Associated Emercoin Service
   ----------------------|------------------------------------------------------------------------|-----------------------------------
   dns                   | DNS record                                                             |  [EmerDNS](/en/blockchain-services/emerdns/emerdns-introduction.md)
@@ -69,6 +71,8 @@ recommend using the following supported service abbreviations:
   magnet                | BitTorrent magnet links                                                 | [EmerMAGNET](/en/blockchain-services/emermagnet.md)
   swift                 | Bank's branch info for SWIFT transfers
   enum                  | <a target="_blank" rel="nofollow" href="http://www.voip-info.org/wiki/view/ENUM">ENUM telephone record</a>     | [ENUMER](/en/blockchain-services/enumer.md)
+
+</div>
 
 Managing NVS entries with the GUI
 -------------
