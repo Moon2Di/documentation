@@ -104,7 +104,9 @@ Font packages that include the Emercoin logo
 
 Interesting story about how Bitcoin was added to Unicode:
 
--   <a target="_blank" rel="nofollow" href="http://www.righto.com/2016/10/inspired-by-hn-comment-four-half-star.html">http://www.righto.com/2016/10/inspired-by-hn-comment-four-half-star.html</a>
+-   <a target="_blank" rel="nofollow" href="http://www.righto.com/2016/10/inspired-by-hn-comment-four-half-star.html">
+    http://www.righto.com/2016/10/inspired-by-hn-comment-four-half-star.html
+    </a>
 -   <a target="_blank" rel="nofollow" href="http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/">http://www.coindesk.com/you-can-now-type-the-bitcoin-b-symbol-in-unicode-text/</a>
 
 Unicode proposal for Bitcoin that was accepted:
