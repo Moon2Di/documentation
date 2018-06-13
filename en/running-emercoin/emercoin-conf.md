@@ -33,7 +33,7 @@ The default location of emercoin.conf depends on your operating system:
 </tr></tbody></table>
 </div>
 
-_Note: When installing [EmerWEB](/en/install-software/core-wallets/emerweb-wallet.md), the location is `/var/lib/emc/.emercoin/emercoin.conf`._
+*Note: When installing [EmerWEB](/en/install-software/core-wallets/emerweb-wallet.md), the location is `/var/lib/emc/.emercoin/emercoin.conf`.*
 
 ### Example emercoin.conf
 ```text
@@ -53,6 +53,6 @@ rpcsslprivatekeyfile=/etc/ssl/emc/emercoin.key
 rpcsslciphers=HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!SSLv2
 ```
 
-_Note: you may find additional .conf file examples at <a target="_blank" rel="nofollow" href="https://en.bitcoin.it/wiki/Running_Bitcoin">https://en.bitcoin.it/wiki/Running_Bitcoin</a>_
+*Note: you may find additional .conf file examples at <a target="_blank" rel="nofollow" href="https://en.bitcoin.it/wiki/Running_Bitcoin">https://en.bitcoin.it/wiki/Running_Bitcoin</a>*
 
 
