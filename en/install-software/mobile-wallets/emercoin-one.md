@@ -1,6 +1,6 @@
 # Emercoin One for iOS
 
-<div style="boxOverflow">
+<div class="boxOverflow">
   <img src="/images/Emercoin_One.png" alt="Emercoin One on the Appstore" width="512">
 </div>
 <br>
