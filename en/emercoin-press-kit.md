@@ -49,59 +49,45 @@ Promotional Images
 <div style="boxOverflow">
   <img src="/images/EmerMan.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/Emc-circuit.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/Emc-circuit(purple).jpg" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/EMC_Evolve_Planet.jpeg" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/EMC_Evolve.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/EMC_Evolve_Circles.jpg" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/Life_on_Mars.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/Astronaut's_Day.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/Moonlanding.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/Emc-motion.jpeg" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/Emercoin_mm.jpg" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/EMC-testnet.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/EMC-DNS.png" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/EMC_Services.jpeg" alt="" width="512">
 </div>
-
 <div style="boxOverflow">
   <img src="/images/EmerSSH-digital-key.png" alt="" width="512">
 </div>
