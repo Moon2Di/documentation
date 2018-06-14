@@ -6,32 +6,12 @@ The `emercoin.conf` configuration file is not always automatically created (depe
 
 The default location of emercoin.conf depends on your operating system:
 
-<div class="boxOverflow">
-<table>
-<thead>
-<tr>
-<th>Operating System</th>
-<th>configuration directory</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Windows XP</td>
-<td><code>C:\Documents and Settings\&lt;username&gt;\Application Data\Emercoin\emercoin.conf</code></td>
-</tr>
-<tr>
-<td>Windows Vista, 7, 10</td>
-<td><code>C:\Users\&lt;username&gt;\AppData\Roaming\Emercoin\emercoin.conf</code>, (or in the same directory as your emercoin-qt.exe)</td>
-</tr>
-<tr>
-<td>Linux</td>
-<td><code>/home/&lt;username&gt;/.emercoin/emercoin.conf</code></td>
-</tr>
-<tr>
-<td>Mac OSX</td>
-<td><code>/Users/&lt;username&gt;/Library/Application Support/Emercoin/emercoin.conf</code></td>
-</tr></tbody></table>
-</div>
+Operating System|configuration directory
+----------------|---------------
+Windows XP				|`C:\Documents and Settings\<username>\Application Data\Emercoin\emercoin.conf`
+Windows Vista, 7, 10	|`C:\Users\<username>\AppData\Roaming\Emercoin\emercoin.conf`, (or in the same directory as your emercoin-qt.exe)
+Linux                	|`/home/<username>/.emercoin/emercoin.conf`
+Mac OSX                	|`/Users/<username>/Library/Application Support/Emercoin/emercoin.conf`
 
 *Note: When installing [EmerWEB](/en/install-software/core-wallets/emerweb-wallet.md), the location is `/var/lib/emc/.emercoin/emercoin.conf`.*
 
