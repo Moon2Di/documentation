@@ -4,88 +4,24 @@ Important Emercoin milestones:
 
 2018 Achievements
 -----------------
-
-<div class="boxOverflow">
-<table>
-<thead>
-<tr>
-<th>Milestone</th>
-<th>Status</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Segwit</td>
-<td>in progress...</td>
-<td>(apply the last Bitcoin code)</td>
-</tr>
-<tr>
-<td>Secure Smart Contracts</td>
-<td>in progress...</td>
-<td>...</td>
-</tr>
-</tbody>
-</table>
-</div>
+Milestone | Status | Notes
+---|---|---
+Segwit | in progress... | (apply the last Bitcoin code)
+Secure Smart Contracts  | in progress... | ...
 
 2017 Achievements
 -----------------
-
-<div class="boxOverflow">
-<table>
-<thead>
-<tr>
-<th>Milestone</th>
-<th>Status</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Light-weight EMC wallet based on Electrum</td>
-<td>Complete!</td>
-<td>
-  
-(see [Emercoin SW](/en/install-software/mobile-wallets/emercoin-sw.md))
-  
-</td>
-</tr>
-<tr>
-<td>Establish Advisory Board</td>
-<td>Complete!</td>
-<td>...</td>
-</tr>
-<tr>
-<td>Merge-mining with Bitcoin Blockchain</td>
-<td>Complete!</td>
-<td>March 17th, 2017</td>
-</tr>
-</tbody>
-</table>
-</div>
+Milestone | Status | Notes
+---|---|---
+Light-weight EMC wallet based on Electrum 	| Complete!| (see [Emercoin SW](/en/install-software/mobile-wallets/emercoin-sw.md))
+Establish Advisory Board | Complete!| ...
+Merge-mining with Bitcoin Blockchain | Complete!| March 17th, 2017
 
 2016 Achievements
 -----------------
-
-<div class="boxOverflow">
-<table>
-<thead>
-<tr>
-<th>Milestone</th>
-<th>Status</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Emercoin added to Microsoft's Azure marketplace</td>
-<td>Complete!</td>
-<td>January 6th, 2016</td>
-</tr>
-</tbody>
-</table>
-</div>
+Milestone | Status | Notes
+---|---|---
+Emercoin added to Microsoft's Azure marketplace | Complete! | January 6th, 2016
 
 2015 Achievements
 -----------------
