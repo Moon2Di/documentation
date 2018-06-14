@@ -8,7 +8,6 @@ hybrid <a target="_blank" rel="nofollow" href="http://en.wikipedia.org/wiki/Proo
 production of coins by energy-conservative PoS as PoW difficulty
 gradually increases over time.
 
-<div class="boxOverflow">
 <table>
   <tr><td>Total Supply:</td><td>Algorithmically increasing at approx. 6% per year [<a target="_blank" rel="nofollow" href="https://emercoin.mintr.org/stats">click here for latest stats</a>].</td></tr>
   <tr><td>Block frequency:</td><td>10 minute average.</td></tr>
@@ -23,4 +22,3 @@ gradually increases over time.
   <tr><td>Default p2p port:</td><td>6661</td></tr>
   <tr><td>Default RPC port:</td><td>6662</td></tr>
 </table>
-  </div>
